@@ -11,10 +11,10 @@ const NavigationLinks = (props) => {
       <Link to="/" className="navigation-links-navlink">
         {props.text}
       </Link>
-      <Link to="/" className="navigation-links-navlink1">
+      <Link to="/ena-official-site-news" className="navigation-links-navlink1">
         {props.text1}
       </Link>
-      <Link to="/" className="navigation-links-navlink2">
+      <Link to="/ena-official-site-works" className="navigation-links-navlink2">
         {props.text2}
       </Link>
       <a

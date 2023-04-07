@@ -34,10 +34,12 @@ const ENAOFFICIALSITEAbout = (props) => {
           className="enaofficialsit-about-image"
         />
         <div className="enaofficialsit-about-container1">
+          <img
+            src="/playground_assets/about1-500h.png"
+            alt="image"
+            className="enaofficialsit-about-image1"
+          />
           <span className="enaofficialsit-about-text">
-            <br></br>
-            <br></br>
-            <br></br>
             <span>4月15日生まれ　A型</span>
             <br></br>
             <span>幼少の頃からピアノを学び、国立音楽大学附属高校へ進学。</span>
@@ -57,13 +59,13 @@ const ENAOFFICIALSITEAbout = (props) => {
             <br></br>
             <br></br>
             <br></br>
-            <span className="enaofficialsit-about-text23">♩使用機材</span>
-            <br className="enaofficialsit-about-text24"></br>
-            <span className="enaofficialsit-about-text25">
+            <span className="enaofficialsit-about-text20">♩使用機材</span>
+            <br className="enaofficialsit-about-text21"></br>
+            <span className="enaofficialsit-about-text22">
               Cubase12 pro　/　YAMAHAウッディミニ0.5畳　/　RME　FireFace400
             </span>
-            <br className="enaofficialsit-about-text26"></br>
-            <span className="enaofficialsit-about-text27">
+            <br className="enaofficialsit-about-text23"></br>
+            <span className="enaofficialsit-about-text24">
               Audio Technica AT5040　/　RUPERT NEVE DESIGNS　Portico5015
             </span>
             <br></br>
@@ -73,8 +75,8 @@ const ENAOFFICIALSITEAbout = (props) => {
         <Link to="/" className="enaofficialsit-about-navlink">
           <img
             alt="image"
-            src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-1300h.png"
-            className="enaofficialsit-about-image1"
+            src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-200h.png"
+            className="enaofficialsit-about-image2"
           />
         </Link>
       </div>
