@@ -25,7 +25,7 @@ const ENAOFFICIALSITEWorks = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/39bd51d0-01cd-43bc-9573-25b8c804befb?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/2dbca4f9-50b5-46c7-93d6-10becb8c4006?org_if_sml=1"
         />
       </Helmet>
       <img
