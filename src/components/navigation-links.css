@@ -5,22 +5,25 @@
   margin-left: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
 }
-.navigation-links-text {
+.navigation-links-navlink {
   color: #094bfb;
   font-size: 26px;
   font-family: Yuji Syuku;
+  text-decoration: none;
 }
-.navigation-links-text1 {
+.navigation-links-navlink1 {
   color: #094bfb;
   font-size: 26px;
   font-family: Yuji Syuku;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
-.navigation-links-text2 {
+.navigation-links-navlink2 {
   color: #094bfb;
   font-size: 26px;
   font-family: Yuji Syuku;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .navigation-links-link {
   color: #094bfb;
@@ -50,14 +53,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-text {
+  .navigation-links-navlink {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text1 {
+  .navigation-links-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text2 {
+  .navigation-links-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

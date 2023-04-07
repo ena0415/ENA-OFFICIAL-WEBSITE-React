@@ -14,9 +14,13 @@
   height: 74px;
   object-fit: cover;
 }
+.enaofficialsit-news-navlink {
+  display: contents;
+}
 .enaofficialsit-news-image1 {
   width: 100px;
   object-fit: cover;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .enaofficialsit-news-image {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -25,7 +26,7 @@ const ENAOFFICIALSITENews = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/ff096912-a3e7-4479-8b9d-752e79ba7c4e?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/94c58585-6fa6-44b7-913a-47252dc461ca?org_if_sml=1"
         />
       </Helmet>
       <ul className="list">
@@ -89,11 +90,13 @@ const ENAOFFICIALSITENews = (props) => {
         description1="スマホ向けRPGゲーム　メメントモリ　リブラ　キャラクターソング歌唱"
         rootClassName="rootClassName11"
       ></FeatureCard3>
-      <img
-        alt="image"
-        src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-200h.png"
-        className="enaofficialsit-news-image1"
-      />
+      <Link to="/" className="enaofficialsit-news-navlink">
+        <img
+          alt="image"
+          src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-200h.png"
+          className="enaofficialsit-news-image1"
+        />
+      </Link>
     </div>
   )
 }

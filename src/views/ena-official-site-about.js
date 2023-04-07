@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -69,11 +70,13 @@ const ENAOFFICIALSITEAbout = (props) => {
             <br></br>
           </span>
         </div>
-        <img
-          alt="image"
-          src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-1300h.png"
-          className="enaofficialsit-about-image1"
-        />
+        <Link to="/" className="enaofficialsit-about-navlink">
+          <img
+            alt="image"
+            src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-1300h.png"
+            className="enaofficialsit-about-image1"
+          />
+        </Link>
       </div>
     </div>
   )

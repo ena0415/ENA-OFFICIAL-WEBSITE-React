@@ -362,9 +362,13 @@
 .enaofficialsit-works-text105 {
   color: #080808;
 }
+.enaofficialsit-works-navlink {
+  display: contents;
+}
 .enaofficialsit-works-image1 {
   width: 100px;
   object-fit: cover;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .enaofficialsit-works-text102 {
