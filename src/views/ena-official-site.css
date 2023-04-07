@@ -1,0 +1,219 @@
+.enaofficialsite-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
+}
+.enaofficialsite-header {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.enaofficialsite-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialsite-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.enaofficialsite-image {
+  width: 172px;
+  height: 160px;
+}
+.enaofficialsite-burger-menu {
+  display: none;
+}
+.enaofficialsite-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.enaofficialsite-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.enaofficialsite-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.enaofficialsite-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.enaofficialsite-image1 {
+  height: 2rem;
+}
+.enaofficialsite-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enaofficialsite-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.enaofficialsite-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.enaofficialsite-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.enaofficialsite-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.enaofficialsite-hero {
+  width: 100%;
+  height: 699px;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  padding-left: 0s;
+  padding-right: 0s;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.enaofficialsite-image2 {
+  width: 726px;
+  height: 521px;
+  object-fit: cover;
+}
+.enaofficialsite-footer {
+  width: 100%;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.enaofficialsite-text {
+  color: #341bd2;
+  font-family: Yuji Syuku;
+}
+@media(max-width: 991px) {
+  .enaofficialsite-header {
+    background-color: var(--dl-color-gray-white);
+  }
+  .enaofficialsite-hero {
+    flex-direction: column;
+  }
+  .enaofficialsite-footer {
+    background-color: var(--dl-color-gray-white);
+  }
+}
+@media(max-width: 767px) {
+  .enaofficialsite-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialsite-nav {
+    display: none;
+  }
+  .enaofficialsite-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .enaofficialsite-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialsite-hero {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .enaofficialsite-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialsite-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .enaofficialsite-text1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .enaofficialsite-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .enaofficialsite-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialsite-mobile-menu {
+    display: none;
+    padding: 16px;
+  }
+  .enaofficialsite-hero {
+    height: 788px;
+    position: relative;
+    min-height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .enaofficialsite-image2 {
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+  }
+  .enaofficialsite-footer {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .enaofficialsite-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .enaofficialsite-text1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

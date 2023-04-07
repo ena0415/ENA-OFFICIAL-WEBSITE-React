@@ -1,0 +1,108 @@
+.enaofficialsit-about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.enaofficialsit-about-testimonial {
+  width: 100%;
+  height: 1213px;
+  display: flex;
+  z-index: 100;
+  max-width: auto;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/playground_assets/%E9%9D%92%20%E9%9F%B3%E7%AC%A6%20%E3%82%B7%E3%82%99%E3%83%A3%E3%82%B9%E3%82%99%20%E3%83%9B%E3%82%9A%E3%82%B9%E3%82%BF%E3%83%BC%20%5B1%5D-1300h.png");
+}
+.enaofficialsit-about-image {
+  top: 10px;
+  left: ０;
+  width: 308px;
+  height: 85px;
+  position: absolute;
+  object-fit: cover;
+}
+.enaofficialsit-about-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.enaofficialsit-about-text {
+  color: rgb(12, 12, 12);
+  width: auto;
+  height: auto;
+  font-size: 1.1rem;
+  max-width: auto;
+  min-width: auto;
+  align-self: flex-end;
+  margin-top: 75%;
+  font-family: Shippori Antique;
+  line-height: 2;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+.enaofficialsit-about-text23 {
+  font-size: 0.9rem;
+}
+.enaofficialsit-about-text24 {
+  font-size: 0.9rem;
+}
+.enaofficialsit-about-text25 {
+  font-size: 0.9rem;
+}
+.enaofficialsit-about-text26 {
+  font-size: 0.9rem;
+}
+.enaofficialsit-about-text27 {
+  font-size: 0.9rem;
+}
+.enaofficialsit-about-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .enaofficialsit-about-testimonial {
+    width: 100%;
+    height: 1265px;
+  }
+  .enaofficialsit-about-image {
+    top: ０;
+    position: static;
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .enaofficialsit-about-container1 {
+    margin-top: 50%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .enaofficialsit-about-text {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .enaofficialsit-about-testimonial {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .enaofficialsit-about-testimonial {
+    width: 100%;
+    height: 1253px;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .enaofficialsit-about-text {
+    width: auto;
+  }
+}

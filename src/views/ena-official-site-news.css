@@ -1,0 +1,25 @@
+.enaofficialsit-news-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/playground_assets/%E9%9D%92%20%E9%9F%B3%E7%AC%A6%20%E3%82%B7%E3%82%99%E3%83%A3%E3%82%B9%E3%82%99%20%E3%83%9B%E3%82%9A%E3%82%B9%E3%82%BF%E3%83%BC-1500w.png");
+}
+.enaofficialsit-news-image {
+  width: 319px;
+  height: 74px;
+  object-fit: cover;
+}
+.enaofficialsit-news-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .enaofficialsit-news-image {
+    position: static;
+  }
+}
