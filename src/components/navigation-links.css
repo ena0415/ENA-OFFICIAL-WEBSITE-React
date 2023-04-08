@@ -45,6 +45,7 @@
   margin-right: 20px;
   background-color: #ffffff;
 }
+
 @media(max-width: 991px) {
   .navigation-links-nav {
     margin-left: var(--dl-space-space-oneandhalfunits);
@@ -69,5 +70,10 @@
   .navigation-links-link {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-root-class-name18 {
+    align-self: flex-start;
   }
 }
