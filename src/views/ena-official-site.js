@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -12,12 +13,12 @@ const ENAOFFICIALSITE = (props) => {
         <title>ENA OFFICIAL SITE - Home</title>
         <meta
           name="description"
-          content="歌手ボーカルコーラスENA、作詞家ENA☆のホームページ"
+          content="歌手 ボーカル コーラス ENA・作詞家 ENA☆ のホームページ"
         />
         <meta property="og:title" content="ENA OFFICIAL SITE - Home" />
         <meta
           property="og:description"
-          content="歌手ボーカルコーラスENA、作詞家ENA☆のホームページ"
+          content="歌手 ボーカル コーラス ENA・作詞家 ENA☆ のホームページ"
         />
         <meta
           property="og:image"
@@ -25,16 +26,26 @@ const ENAOFFICIALSITE = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="enaofficialsite-header">
-        <div className="enaofficialsite-container1">
-          <div className="enaofficialsite-nav">
-            <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
-          </div>
-        </div>
         <img
           alt="logo"
           src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
           className="enaofficialsite-image"
         />
+        <div className="enaofficialsite-container1">
+          <div className="enaofficialsite-container2">
+            <div className="enaofficialsite-nav">
+              <Link
+                to="/ena-official-site-about"
+                className="enaofficialsite-navlink"
+              >
+                <NavigationLinks
+                  rootClassName="rootClassName17"
+                  className="enaofficialsite-component"
+                ></NavigationLinks>
+              </Link>
+            </div>
+          </div>
+        </div>
         <div data-role="BurgerMenu" className="enaofficialsite-burger-menu">
           <svg viewBox="0 0 1024 1024" className="enaofficialsite-icon">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
@@ -42,7 +53,7 @@ const ENAOFFICIALSITE = (props) => {
         </div>
         <div data-role="MobileMenu" className="enaofficialsite-mobile-menu">
           <div className="enaofficialsite-nav1">
-            <div className="enaofficialsite-container2">
+            <div className="enaofficialsite-container3">
               <div
                 data-role="CloseMobileMenu"
                 className="enaofficialsite-close-mobile-menu"

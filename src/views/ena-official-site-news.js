@@ -14,7 +14,7 @@ const ENAOFFICIALSITENews = (props) => {
         <title>ENA-OFFICIAL-SITE-news - ENA OFFICIAL WEBSITE</title>
         <meta
           name="description"
-          content="歌手ボーカルコーラスENA、作詞家ENA☆について紹介"
+          content="歌手 ボーカル コーラス ENA・作詞家 ENA☆ のホームページ"
         />
         <meta
           property="og:title"
@@ -22,19 +22,16 @@ const ENAOFFICIALSITENews = (props) => {
         />
         <meta
           property="og:description"
-          content="歌手ボーカルコーラスENA、作詞家ENA☆について紹介"
+          content="歌手 ボーカル コーラス ENA・作詞家 ENA☆ のホームページ"
         />
         <meta
           property="og:image"
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/94c58585-6fa6-44b7-913a-47252dc461ca?org_if_sml=1"
         />
       </Helmet>
-      <ul className="list">
-        <li className="list-item"></li>
-      </ul>
       <img
-        alt="image"
         src="/playground_assets/news-200h.png"
+        alt="image"
         className="enaofficialsit-news-image"
       />
       <FeatureCard4

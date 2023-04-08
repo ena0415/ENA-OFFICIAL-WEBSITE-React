@@ -6,24 +6,22 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-}
-.enaofficialsit-about-testimonial {
-  width: 100%;
-  height: auto;
-  display: flex;
-  z-index: 100;
-  max-width: auto;
-  align-items: center;
-  flex-direction: column;
-  background-image: radial-gradient(circle at center, rgb(192, 36, 37) 0.00%,rgb(225, 183, 11) 88.00%,rgb(225, 183, 11) 100.00%);
+  background-image: linear-gradient(45deg, rgb(192, 36, 37) 0.00%,rgb(234, 207, 99) 81.00%,rgb(234, 207, 99) 89.00%,rgb(234, 207, 99) 96.00%,rgb(234, 207, 99) 100.00%);
 }
 .enaofficialsit-about-image {
-  top: 10px;
-  left: ０;
-  width: 308px;
-  height: 85px;
-  position: absolute;
+  width: 180px;
+  align-self: flex-end;
+  margin-top: 10px;
   object-fit: cover;
+  margin-right: 30px;
+}
+.enaofficialsit-about-image1 {
+  width: 500px;
+  height: 500px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+  margin-left: 50px;
 }
 .enaofficialsit-about-container1 {
   flex: 0 0 auto;
@@ -31,18 +29,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.enaofficialsit-about-image1 {
-  width: 415px;
-  height: 415px;
-  align-self: center;
-  margin-top: 200px;
-  object-fit: cover;
-}
 .enaofficialsit-about-text {
   color: rgb(12, 12, 12);
   width: auto;
   height: auto;
-  font-size: 1.1rem;
   max-width: auto;
   min-width: auto;
   align-self: flex-end;
@@ -54,20 +44,44 @@
   padding-bottom: 0px;
   text-transform: uppercase;
 }
-.enaofficialsit-about-text20 {
-  font-size: 0.9rem;
+.enaofficialsit-about-text01 {
+  font-size: 1.1rem;
 }
-.enaofficialsit-about-text21 {
-  font-size: 0.9rem;
+.enaofficialsit-about-text03 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text05 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text06 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text08 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text10 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text11 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text13 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text14 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text16 {
+  font-size: 1.1rem;
+}
+.enaofficialsit-about-text20 {
+  font-size: 1.1rem;
 }
 .enaofficialsit-about-text22 {
-  font-size: 0.9rem;
-}
-.enaofficialsit-about-text23 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 .enaofficialsit-about-text24 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 .enaofficialsit-about-navlink {
   display: contents;
@@ -75,20 +89,18 @@
 .enaofficialsit-about-image2 {
   width: 100px;
   object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .enaofficialsit-about-testimonial {
-    width: 100%;
-    height: auto;
+  .enaofficialsit-about-container {
+    justify-content: flex-start;
   }
-  .enaofficialsit-about-image {
-    top: ０;
-    position: static;
-    margin-top: var(--dl-space-space-halfunit);
+  .enaofficialsit-about-image1 {
+    margin-left: 30px;
   }
   .enaofficialsit-about-container1 {
-    margin-top: 50%;
+    margin-top: 0%;
     align-items: center;
     justify-content: space-between;
   }
@@ -98,21 +110,172 @@
   }
 }
 @media(max-width: 767px) {
-  .enaofficialsit-about-testimonial {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+  .enaofficialsit-about-image1 {
+    margin-left: 0px;
+  }
+  .enaofficialsit-about-text {
+    color: rgb(12, 12, 12);
+    font-family: Shippori Antique;
+    line-height: 2;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .enaofficialsit-about-text01 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text02 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text03 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text04 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text05 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text06 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text07 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text08 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text09 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text10 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text11 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text12 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text13 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text14 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text15 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text16 {
+    font-size: 16px;
+  }
+  .enaofficialsit-about-text20 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text21 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text22 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text23 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text24 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text25 {
+    font-size: 15px;
   }
 }
 @media(max-width: 479px) {
-  .enaofficialsit-about-testimonial {
-    width: 100%;
-    height: auto;
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+  .enaofficialsit-about-image {
+    width: 130px;
   }
   .enaofficialsit-about-text {
+    color: rgb(12, 12, 12);
     width: auto;
+    font-family: Shippori Antique;
+    line-height: 2;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .enaofficialsit-about-text01 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text02 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text03 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text04 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text05 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text06 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text07 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text08 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text09 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text10 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text11 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text12 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text13 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text14 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text15 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text16 {
+    font-size: 15px;
+  }
+  .enaofficialsit-about-text17 {
+    font-size: 1.1rem;
+  }
+  .enaofficialsit-about-text18 {
+    font-size: 1.1rem;
+  }
+  .enaofficialsit-about-text19 {
+    font-size: 1.1rem;
+  }
+  .enaofficialsit-about-text20 {
+    font-size: 14px;
+  }
+  .enaofficialsit-about-text21 {
+    font-size: 14px;
+  }
+  .enaofficialsit-about-text22 {
+    font-size: 14px;
+  }
+  .enaofficialsit-about-text23 {
+    font-size: 14px;
+  }
+  .enaofficialsit-about-text24 {
+    font-size: 14px;
+  }
+  .enaofficialsit-about-text26 {
+    font-size: 1.1rem;
   }
 }
