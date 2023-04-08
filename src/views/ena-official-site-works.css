@@ -389,7 +389,7 @@
   .enaofficialsit-works-text099 {
     font-size: 15px;
     font-family: Shippori Antique;
-    line-height: 1.5;
+    line-height: 2;
     margin-left: 100px;
     letter-spacing: 1px;
   }
@@ -431,23 +431,41 @@
     margin-right: 15px;
   }
   .enaofficialsit-works-text015 {
+    font-size: 13px;
     margin-left: 2%;
     margin-right: 2%;
   }
   .enaofficialsit-works-text038 {
+    font-size: 13px;
     margin-left: 2%;
     margin-right: 2%;
   }
   .enaofficialsit-works-text050 {
+    font-size: 13px;
     margin-left: 2%;
     margin-right: 2%;
   }
   .enaofficialsit-works-text085 {
+    font-size: 13px;
+    line-height: 1.8;
     margin-left: 2%;
     margin-right: 2%;
   }
   .enaofficialsit-works-text099 {
+    font-size: 13px;
+    font-family: Shippori Antique;
+    line-height: 1.8;
     margin-left: 2%;
     margin-right: 2%;
+    letter-spacing: 1px;
+  }
+  .enaofficialsit-works-text100 {
+    color: #080808;
+  }
+  .enaofficialsit-works-text101 {
+    color: #080808;
+  }
+  .enaofficialsit-works-text102 {
+    color: #080808;
   }
 }

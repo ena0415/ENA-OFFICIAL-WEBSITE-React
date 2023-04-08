@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -34,15 +33,7 @@ const ENAOFFICIALSITE = (props) => {
         <div className="enaofficialsite-container1">
           <div className="enaofficialsite-container2">
             <div className="enaofficialsite-nav">
-              <Link
-                to="/ena-official-site-about"
-                className="enaofficialsite-navlink"
-              >
-                <NavigationLinks
-                  rootClassName="rootClassName17"
-                  className="enaofficialsite-component"
-                ></NavigationLinks>
-              </Link>
+              <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
             </div>
           </div>
         </div>

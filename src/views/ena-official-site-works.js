@@ -481,7 +481,6 @@ const ENAOFFICIALSITEWorks = (props) => {
         </span>
         <br></br>
         <br></br>
-        <br></br>
       </span>
       <Link to="/" className="enaofficialsit-works-navlink">
         <img

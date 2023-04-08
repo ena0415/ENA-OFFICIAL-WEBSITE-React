@@ -8,7 +8,7 @@ import './navigation-links.css'
 const NavigationLinks = (props) => {
   return (
     <nav className={`navigation-links-nav ${props.rootClassName} `}>
-      <Link to="/" className="navigation-links-navlink">
+      <Link to="/ena-official-site-about" className="navigation-links-navlink">
         {props.text}
       </Link>
       <Link to="/ena-official-site-news" className="navigation-links-navlink1">
