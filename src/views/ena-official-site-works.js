@@ -403,13 +403,17 @@ const ENAOFFICIALSITEWorks = (props) => {
         <span className="enaofficialsit-works-text054">
           スーパーゲームソングライブ　
         </span>
-        <span>2012 -NEW GAME-　＠パシフィコ横浜</span>
+        <span className="enaofficialsit-works-text055">
+          2012 -NEW GAME-　＠パシフィコ横浜
+        </span>
         <span className="enaofficialsit-works-text056">（2012年）</span>
         <br className="enaofficialsit-works-text057"></br>
         <span className="enaofficialsit-works-text058">
           中村繪里子「らららなかむランド」＠
         </span>
-        <span>相模女子大学グリーンホール</span>
+        <span className="enaofficialsit-works-text059">
+          相模女子大学グリーンホール
+        </span>
         <span className="enaofficialsit-works-text060">（2015年）</span>
         <br className="enaofficialsit-works-text061"></br>
         <span className="enaofficialsit-works-text062">
@@ -418,7 +422,7 @@ const ENAOFFICIALSITEWorks = (props) => {
         <span className="enaofficialsit-works-text063">（2018年）</span>
         <br className="enaofficialsit-works-text064"></br>
         <span className="enaofficialsit-works-text065">花澤香菜　</span>
-        <span>
+        <span className="enaofficialsit-works-text066">
           {' '}
           -KANA HANAZAWA Concert 2018 &quot;Spring will come soon&quot; &amp;
            &quot;大丈夫&quot;
@@ -431,7 +435,9 @@ const ENAOFFICIALSITEWorks = (props) => {
         <span className="enaofficialsit-works-text070">（2018年）</span>
         <br className="enaofficialsit-works-text071"></br>
         <span className="enaofficialsit-works-text072">坂本真綾　</span>
-        <span>LIVE TOUR 2019「今日だけの音楽」</span>
+        <span className="enaofficialsit-works-text073">
+          LIVE TOUR 2019「今日だけの音楽」
+        </span>
         <span className="enaofficialsit-works-text074">（2019年）</span>
         <br className="enaofficialsit-works-text075"></br>
         <span className="enaofficialsit-works-text076">声優紅白歌合戦</span>
@@ -479,7 +485,7 @@ const ENAOFFICIALSITEWorks = (props) => {
         <span className="enaofficialsit-works-text102">
           内田真礼(声優)、仁藤萌乃、楠田亜衣奈（声優）、CHiCO、halca、SHONO他
         </span>
-        <br></br>
+        <br className="enaofficialsit-works-text103"></br>
         <br></br>
       </span>
       <Link to="/" className="enaofficialsit-works-navlink">

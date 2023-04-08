@@ -41,16 +41,10 @@
 .enaofficialsit-works-text016 {
   color: #000000;
 }
-.enaofficialsit-works-text017 {
-  color: #000000;
-}
 .enaofficialsit-works-text018 {
   color: #000000;
 }
 .enaofficialsit-works-text019 {
-  color: #000000;
-}
-.enaofficialsit-works-text020 {
   color: #000000;
 }
 .enaofficialsit-works-text021 {
@@ -59,19 +53,10 @@
 .enaofficialsit-works-text022 {
   color: #000000;
 }
-.enaofficialsit-works-text023 {
-  color: #000000;
-}
 .enaofficialsit-works-text024 {
   color: #000000;
 }
-.enaofficialsit-works-text025 {
-  color: #000000;
-}
 .enaofficialsit-works-text026 {
-  color: #000000;
-}
-.enaofficialsit-works-text027 {
   color: #000000;
 }
 .enaofficialsit-works-text028 {
@@ -213,13 +198,7 @@
 .enaofficialsit-works-text039 {
   color: #000000;
 }
-.enaofficialsit-works-text040 {
-  color: #000000;
-}
 .enaofficialsit-works-text041 {
-  color: #000000;
-}
-.enaofficialsit-works-text042 {
   color: #000000;
 }
 .enaofficialsit-works-text043 {
@@ -244,16 +223,10 @@
 .enaofficialsit-works-text052 {
   color: var(--dl-color-gray-black);
 }
-.enaofficialsit-works-text053 {
-  color: var(--dl-color-gray-black);
-}
 .enaofficialsit-works-text054 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text056 {
-  color: var(--dl-color-gray-black);
-}
-.enaofficialsit-works-text057 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text058 {
@@ -262,16 +235,10 @@
 .enaofficialsit-works-text060 {
   color: var(--dl-color-gray-black);
 }
-.enaofficialsit-works-text061 {
-  color: var(--dl-color-gray-black);
-}
 .enaofficialsit-works-text062 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text063 {
-  color: var(--dl-color-gray-black);
-}
-.enaofficialsit-works-text064 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text065 {
@@ -280,25 +247,16 @@
 .enaofficialsit-works-text067 {
   color: var(--dl-color-gray-black);
 }
-.enaofficialsit-works-text068 {
-  color: var(--dl-color-gray-black);
-}
 .enaofficialsit-works-text069 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text070 {
   color: var(--dl-color-gray-black);
 }
-.enaofficialsit-works-text071 {
-  color: var(--dl-color-gray-black);
-}
 .enaofficialsit-works-text072 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text074 {
-  color: var(--dl-color-gray-black);
-}
-.enaofficialsit-works-text075 {
   color: var(--dl-color-gray-black);
 }
 .enaofficialsit-works-text076 {
@@ -326,19 +284,10 @@
 .enaofficialsit-works-text086 {
   color: #000000;
 }
-.enaofficialsit-works-text087 {
-  color: #000000;
-}
 .enaofficialsit-works-text088 {
   color: #000000;
 }
-.enaofficialsit-works-text089 {
-  color: #000000;
-}
 .enaofficialsit-works-text090 {
-  color: #000000;
-}
-.enaofficialsit-works-text091 {
   color: #000000;
 }
 .enaofficialsit-works-text092 {
@@ -405,24 +354,267 @@
 }
 @media(max-width: 767px) {
   .enaofficialsit-works-text015 {
+    font-size: 14px;
+    font-family: Shippori Antique;
+    line-height: 2;
     margin-left: 2%;
     margin-right: 2%;
+    letter-spacing: 1px;
+  }
+  .enaofficialsit-works-text016 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text017 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text018 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text019 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text020 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text021 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text022 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text023 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text024 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text025 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text026 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text027 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text028 {
+    color: #000000;
+    font-size: 13px;
   }
   .enaofficialsit-works-text038 {
+    font-size: 14px;
+    font-family: Shippori Antique;
+    line-height: 2;
     margin-left: 2%;
     margin-right: 2%;
+    letter-spacing: 1px;
+  }
+  .enaofficialsit-works-text039 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text040 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text041 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text042 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text043 {
+    color: #000000;
+    font-size: 13px;
   }
   .enaofficialsit-works-text050 {
+    font-size: 14px;
+    font-family: Shippori Antique;
+    line-height: 2;
     margin-left: 2%;
     margin-right: 2%;
+    letter-spacing: 1px;
+  }
+  .enaofficialsit-works-text051 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text052 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text053 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text054 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text055 {
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text056 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text057 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text058 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text059 {
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text060 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text061 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text062 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text063 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text064 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text065 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text066 {
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text067 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text068 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text069 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text070 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text071 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text072 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text073 {
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text074 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text075 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text076 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text077 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text078 {
+    color: var(--dl-color-gray-black);
+    font-size: 13px;
   }
   .enaofficialsit-works-text085 {
+    font-size: 14px;
+    font-family: Shippori Antique;
+    line-height: 2;
     margin-left: 2%;
     margin-right: 2%;
+    letter-spacing: 1px;
+  }
+  .enaofficialsit-works-text086 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text087 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text088 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text089 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text090 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text091 {
+    color: #000000;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text092 {
+    color: #000000;
+    font-size: 13px;
   }
   .enaofficialsit-works-text099 {
+    font-size: 14px;
+    font-family: Shippori Antique;
+    line-height: 2;
     margin-left: 2%;
     margin-right: 2%;
+    letter-spacing: 1px;
+  }
+  .enaofficialsit-works-text100 {
+    color: #080808;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text101 {
+    color: #080808;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text102 {
+    color: #080808;
+    font-size: 13px;
+  }
+  .enaofficialsit-works-text103 {
+    font-size: 13px;
   }
 }
 @media(max-width: 479px) {
