@@ -30,8 +30,8 @@ const ENAOFFICIALSITEWorks = (props) => {
         />
       </Helmet>
       <img
-        src="/playground_assets/works-200h.png"
         alt="image"
+        src="/playground_assets/works-200h.png"
         className="enaofficialsit-works-image"
       />
       <label className="enaofficialsit-works-text">
@@ -157,8 +157,8 @@ const ENAOFFICIALSITEWorks = (props) => {
         title="Into the Light"
         artist="Monsieur D. feat. ENA"
         link_text="https://www.youtube.com/watch?v=_P6XfO4eqzI"
-        rootClassName="rootClassName32"
         description=" 東京を拠点に活動するギタリスト&amp;コンポーザー(Mosieur D.)最新作 デジタルシングル"
+        rootClassName="rootClassName32"
       ></FeatureCard2>
       <label className="enaofficialsit-works-text005">
         <br></br>
@@ -255,12 +255,12 @@ const ENAOFFICIALSITEWorks = (props) => {
         rootClassName="rootClassName20"
       ></FeatureCard2>
       <FeatureCard21
-        rootClassName="feature-card21-root-class-name"
+        text="HiB HiB dream"
+        year="2016"
+        title="HiB HiB dream"
         artist="HiHi JET ×東京B少年"
         description="HiHiJets、東京B少年初のコラボ楽曲"
-        year="2016"
-        text="HiB HiB dream"
-        title="HiB HiB dream"
+        rootClassName="feature-card21-root-class-name"
       ></FeatureCard21>
       <FeatureCard2
         year="2018"

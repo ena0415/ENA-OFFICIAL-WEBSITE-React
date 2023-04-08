@@ -30,22 +30,22 @@ const FeatureCard21 = (props) => {
 }
 
 FeatureCard21.defaultProps = {
-  text: 'Listen',
+  artist: 'Name',
   link_text: 'https://google.com',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
+  text: 'Listen',
   title: 'Lorem ipsum',
-  artist: 'Name',
   year: '2020',
   rootClassName: '',
 }
 
 FeatureCard21.propTypes = {
-  text: PropTypes.string,
+  artist: PropTypes.string,
   link_text: PropTypes.string,
   description: PropTypes.string,
+  text: PropTypes.string,
   title: PropTypes.string,
-  artist: PropTypes.string,
   year: PropTypes.string,
   rootClassName: PropTypes.string,
 }

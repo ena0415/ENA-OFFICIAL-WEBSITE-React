@@ -28,8 +28,8 @@ const ENAOFFICIALSITEAbout = (props) => {
         />
       </Helmet>
       <img
-        src="/playground_assets/about-200h.png"
         alt="image"
+        src="/playground_assets/about-200h.png"
         className="enaofficialsit-about-image"
       />
       <img

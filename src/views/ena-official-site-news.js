@@ -30,8 +30,8 @@ const ENAOFFICIALSITENews = (props) => {
         />
       </Helmet>
       <img
-        src="/playground_assets/news-200h.png"
         alt="image"
+        src="/playground_assets/news-200h.png"
         className="enaofficialsit-news-image"
       />
       <FeatureCard4

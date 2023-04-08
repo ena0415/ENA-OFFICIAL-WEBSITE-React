@@ -131,7 +131,6 @@
 }
 @media(max-width: 767px) {
   .enaofficialsite-header {
-    position: relative;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }

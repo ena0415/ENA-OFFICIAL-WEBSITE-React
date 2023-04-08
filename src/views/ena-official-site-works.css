@@ -31,11 +31,11 @@
 }
 .enaofficialsit-works-text015 {
   font-size: 14px;
-  align-self: flex-start;
+  align-self: center;
   text-align: left;
   font-family: Shippori Antique;
   line-height: 2;
-  margin-left: 180px;
+  margin-left: 0px;
   letter-spacing: 1px;
 }
 .enaofficialsit-works-text016 {
@@ -203,11 +203,11 @@
 }
 .enaofficialsit-works-text038 {
   font-size: 14px;
-  align-self: flex-start;
+  align-self: center;
   text-align: left;
   font-family: Shippori Antique;
   line-height: 2;
-  margin-left: 180px;
+  margin-left: 0px;
   letter-spacing: 1px;
 }
 .enaofficialsit-works-text039 {
@@ -232,10 +232,10 @@
 }
 .enaofficialsit-works-text050 {
   font-size: 14px;
-  align-self: flex-start;
+  align-self: center;
   font-family: Shippori Antique;
   line-height: 2;
-  margin-left: 180px;
+  margin-left: 0px;
   letter-spacing: 1px;
 }
 .enaofficialsit-works-text051 {
@@ -317,10 +317,10 @@
 }
 .enaofficialsit-works-text085 {
   font-size: 14px;
-  align-self: flex-start;
+  align-self: center;
   font-family: Shippori Antique;
   line-height: 2;
-  margin-left: 180px;
+  margin-left: 0px;
   letter-spacing: 1px;
 }
 .enaofficialsit-works-text086 {
@@ -351,10 +351,10 @@
 }
 .enaofficialsit-works-text099 {
   font-size: 14px;
-  align-self: flex-start;
+  align-self: center;
   font-family: Shippori Antique;
   line-height: 2;
-  margin-left: 180px;
+  margin-left: 0px;
   letter-spacing: 1px;
 }
 .enaofficialsit-works-text100 {
@@ -375,22 +375,22 @@
 }
 @media(max-width: 991px) {
   .enaofficialsit-works-text015 {
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .enaofficialsit-works-text038 {
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .enaofficialsit-works-text050 {
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .enaofficialsit-works-text085 {
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .enaofficialsit-works-text099 {
     font-size: 15px;
     font-family: Shippori Antique;
     line-height: 2;
-    margin-left: 100px;
+    margin-left: 0px;
     letter-spacing: 1px;
   }
   .enaofficialsit-works-text100 {

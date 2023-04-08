@@ -18,7 +18,7 @@
 .enaofficialsit-about-image1 {
   width: 500px;
   height: 500px;
-  align-self: flex-start;
+  align-self: center;
   margin-top: var(--dl-space-space-oneandhalfunits);
   object-fit: cover;
   margin-left: 50px;
@@ -97,6 +97,7 @@
     justify-content: flex-start;
   }
   .enaofficialsit-about-image1 {
+    align-self: center;
     margin-left: 30px;
   }
   .enaofficialsit-about-container1 {
