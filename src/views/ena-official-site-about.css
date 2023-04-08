@@ -194,8 +194,9 @@
     width: 130px;
   }
   .enaofficialsit-about-image1 {
-    width: 479px;
-    height: 499px;
+    width: 450px;
+    height: 450px;
+    align-self: center;
   }
   .enaofficialsit-about-text {
     color: rgb(12, 12, 12);
