@@ -71,7 +71,7 @@ const ENAOFFICIALSITEAbout = (props) => {
           <span className="enaofficialsit-about-text14">回りながら</span>
           <br className="enaofficialsit-about-text15"></br>
           <span className="enaofficialsit-about-text16">
-            ボーカリスト、作詞家、トレーナーとして活動中。
+            ボーカリスト、作詞家（ENA☆）、トレーナーとして活動中。
           </span>
           <br className="enaofficialsit-about-text17"></br>
           <br className="enaofficialsit-about-text18"></br>
