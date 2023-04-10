@@ -114,6 +114,12 @@
 
 
 
+@media(max-width: 991px) {
+  .feature-card2-icon {
+    width: 30％;
+    height: 30％;
+  }
+}
 @media(max-width: 767px) {
   .feature-card2-feature-card {
     width: 100%;
@@ -124,12 +130,22 @@
   }
 }
 @media(max-width: 479px) {
+  .feature-card2-icon {
+    width: 15％;
+    height: 15％;
+  }
   .feature-card2-container2 {
     flex-direction: column;
   }
   .feature-card2-container3 {
+    width: 80％;
+    height: 80％;
     align-items: flex-start;
     flex-direction: column;
+  }
+  .feature-card2-text {
+    width: 80％;
+    height: 80％;
   }
   .feature-card2-text1 {
     margin-left: 0px;

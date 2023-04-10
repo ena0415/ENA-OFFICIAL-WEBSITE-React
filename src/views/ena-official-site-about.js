@@ -40,36 +40,36 @@ const ENAOFFICIALSITEAbout = (props) => {
       <div className="enaofficialsit-about-container1">
         <span className="enaofficialsit-about-text">
           <span className="enaofficialsit-about-text01">
-            4月15日生まれ　A型
+            4月15日生まれ、A型。
           </span>
           <br className="enaofficialsit-about-text02"></br>
           <span className="enaofficialsit-about-text03">
-            幼少の頃からピアノを学び、国立音楽大学附属高校へ進学。
+            幼少の頃からピアノを学び国立音楽大学附属高校へ進学。
           </span>
           <br className="enaofficialsit-about-text04"></br>
           <span className="enaofficialsit-about-text05">
-            ピアノと声楽を学んだ後、一般企業へ就職。
+            ピアノと声楽を学んだ後一般企業へ就職。
           </span>
-          <span className="enaofficialsit-about-text06">
+          <br className="enaofficialsit-about-text06"></br>
+          <span className="enaofficialsit-about-text07">
             約6年間社会人を経験し、再び音楽の世界へ。
           </span>
-          <br className="enaofficialsit-about-text07"></br>
-          <span className="enaofficialsit-about-text08">
+          <br className="enaofficialsit-about-text08"></br>
+          <span className="enaofficialsit-about-text09">
             2007年「未来の物語」で作詞家デビュー、
           </span>
-          <br className="enaofficialsit-about-text09"></br>
-          <span className="enaofficialsit-about-text10">
+          <br className="enaofficialsit-about-text10"></br>
+          <span className="enaofficialsit-about-text11">
             2009年クイーンズブレイド玉座を継ぐ者
           </span>
-          <span className="enaofficialsit-about-text11">
+          <span className="enaofficialsit-about-text12">
             の主題歌「墜ちない空」で歌手デビュー。
           </span>
-          <br className="enaofficialsit-about-text12"></br>
-          <span className="enaofficialsit-about-text13">
+          <br className="enaofficialsit-about-text13"></br>
+          <span className="enaofficialsit-about-text14">
             2015年より山下達郎バンドのコーラスとして全国ツアーを
           </span>
-          <span className="enaofficialsit-about-text14">回りながら</span>
-          <br className="enaofficialsit-about-text15"></br>
+          <span className="enaofficialsit-about-text15">回りながら</span>
           <span className="enaofficialsit-about-text16">
             ボーカリスト、作詞家（ENA☆）、トレーナーとして活動中。
           </span>
@@ -78,15 +78,25 @@ const ENAOFFICIALSITEAbout = (props) => {
           <br className="enaofficialsit-about-text19"></br>
           <span className="enaofficialsit-about-text20">♩使用機材</span>
           <br className="enaofficialsit-about-text21"></br>
-          <span className="enaofficialsit-about-text22">
-            Cubase12 pro　/　YAMAHAウッディミニ0.5畳　/　RME　FireFace400
-          </span>
+          <span className="enaofficialsit-about-text22">　Cubase12 pro</span>
           <br className="enaofficialsit-about-text23"></br>
           <span className="enaofficialsit-about-text24">
-            Audio Technica AT5040　/　RUPERT NEVE DESIGNS　Portico5015
+            　RME　FireFace400
           </span>
           <br className="enaofficialsit-about-text25"></br>
-          <br className="enaofficialsit-about-text26"></br>
+          <span className="enaofficialsit-about-text26">
+            　Audio Technica AT5040
+          </span>
+          <br className="enaofficialsit-about-text27"></br>
+          <span className="enaofficialsit-about-text28">
+            　RUPERT NEVE DESIGNS　Portico5015
+          </span>
+          <br className="enaofficialsit-about-text29"></br>
+          <span className="enaofficialsit-about-text30">
+            　YAMAHAウッディミニ0.5畳
+          </span>
+          <br className="enaofficialsit-about-text31"></br>
+          <br className="enaofficialsit-about-text32"></br>
         </span>
       </div>
       <Link to="/" className="enaofficialsit-about-navlink">
