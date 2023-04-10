@@ -61,7 +61,7 @@ const ENAOFFICIALSITE = (props) => {
       <div className="enaofficialsite-hero">
         <img
           alt="image"
-          src="/playground_assets/ena%20official%20site-2-800w.png"
+          src="/playground_assets/ena%20official%20site-2-1500h.png"
           className="enaofficialsite-image1"
         />
       </div>
