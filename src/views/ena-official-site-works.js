@@ -156,7 +156,7 @@ const ENAOFFICIALSITEWorks = (props) => {
         year="2023"
         title="Into the Light"
         artist="Monsieur D. feat. ENA"
-        link_text="https://www.youtube.com/watch?v=_P6XfO4eqzI"
+        link_text="https://nex-tone.link/A00114508"
         description=" 東京を拠点に活動するギタリスト&amp;コンポーザー(Mosieur D.)最新作 デジタルシングル"
         rootClassName="rootClassName32"
       ></FeatureCard2>
