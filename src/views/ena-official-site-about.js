@@ -44,7 +44,7 @@ const ENAOFFICIALSITEAbout = (props) => {
           </span>
           <br className="enaofficialsit-about-text02"></br>
           <span className="enaofficialsit-about-text03">
-            幼少の頃からピアノを学び国立音楽大学附属高校へ進学。
+            幼い頃からピアノを学び国立音楽大学附属高校へ進学。
           </span>
           <br className="enaofficialsit-about-text04"></br>
           <span className="enaofficialsit-about-text05">

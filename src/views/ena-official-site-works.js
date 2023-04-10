@@ -140,7 +140,7 @@ const ENAOFFICIALSITEWorks = (props) => {
         year="2020"
         title="誰よりも　・　ひとこと"
         artist="ENA"
-        link_text="https://recochoku.jp/album/A2003113239/album?ds=1016290323"
+        link_text="https://recochoku.jp/song/S1016290324/"
         description="Nintendo Switch オランピアソワレ　ED主題歌"
         rootClassName="rootClassName16"
       ></FeatureCard2>
