@@ -138,6 +138,10 @@
   .feature-card2-container {
     width: auto;
   }
+  .feature-card2-icon {
+    width: 80％;
+    height: 80％;
+  }
   .feature-card2-container3 {
     flex-direction: column;
   }
@@ -156,5 +160,30 @@
   }
   .feature-card2-text2 {
     margin-left: 0px;
+  }
+  .feature-card2-link {
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+  }
+  .feature-card2-root-class-name14 {
+    display: none;
+    align-self: flex-end;
+  }
+  .feature-card2-root-class-name19 {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-card2-root-class-name20 {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-card2-root-class-name21 {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-card2-root-class-name22 {
+    width: 100%;
+    height: 100%;
   }
 }

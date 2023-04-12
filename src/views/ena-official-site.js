@@ -9,12 +9,12 @@ const ENAOFFICIALSITE = (props) => {
   return (
     <div className="enaofficialsite-container">
       <Helmet>
-        <title>ENA OFFICIAL SITE - Home</title>
+        <title>ENA OFFICIAL SITE</title>
         <meta
           name="description"
           content="歌手 ボーカル コーラス ENA・作詞家 ENA☆ のホームページ"
         />
-        <meta property="og:title" content="ENA OFFICIAL SITE - Home" />
+        <meta property="og:title" content="ENA OFFICIAL SITE" />
         <meta
           property="og:description"
           content="歌手 ボーカル コーラス ENA・作詞家 ENA☆ のホームページ"
