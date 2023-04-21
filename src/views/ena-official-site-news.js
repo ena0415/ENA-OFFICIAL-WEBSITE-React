@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import NavigationLinks from '../components/navigation-links'
 import FeatureCard4 from '../components/feature-card4'
 import FeatureCard3 from '../components/feature-card3'
 import './ena-official-site-news.css'
@@ -29,10 +29,47 @@ const ENAOFFICIALSITENews = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/94c58585-6fa6-44b7-913a-47252dc461ca?org_if_sml=1"
         />
       </Helmet>
+      <header data-role="Header" className="enaofficialsit-news-header">
+        <img
+          alt="logo"
+          src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+          className="enaofficialsit-news-image"
+        />
+        <div className="enaofficialsit-news-container1">
+          <div className="enaofficialsit-news-container2">
+            <div className="enaofficialsit-news-nav">
+              <NavigationLinks rootClassName="rootClassName13"></NavigationLinks>
+            </div>
+          </div>
+        </div>
+        <div data-role="BurgerMenu" className="enaofficialsit-news-burger-menu">
+          <svg viewBox="0 0 1024 1024" className="enaofficialsit-news-icon">
+            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+          </svg>
+        </div>
+        <div data-role="MobileMenu" className="enaofficialsit-news-mobile-menu">
+          <div className="enaofficialsit-news-nav1">
+            <div className="enaofficialsit-news-container3">
+              <div
+                data-role="CloseMobileMenu"
+                className="enaofficialsit-news-close-mobile-menu"
+              >
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="enaofficialsit-news-icon2"
+                >
+                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                </svg>
+              </div>
+            </div>
+            <NavigationLinks rootClassName="rootClassName12"></NavigationLinks>
+          </div>
+        </div>
+      </header>
       <img
         alt="image"
         src="/playground_assets/news-200h.png"
-        className="enaofficialsit-news-image"
+        className="enaofficialsit-news-image1"
       />
       <FeatureCard4
         text="Official Site"
@@ -87,13 +124,12 @@ const ENAOFFICIALSITENews = (props) => {
         description1="スマホ向けRPGゲーム　メメントモリ　リブラ　キャラクターソング歌唱"
         rootClassName="rootClassName11"
       ></FeatureCard3>
-      <Link to="/" className="enaofficialsit-news-navlink">
-        <img
-          alt="image"
-          src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-200h.png"
-          className="enaofficialsit-news-image1"
-        />
-      </Link>
+      <footer className="enaofficialsit-news-footer">
+        <span className="enaofficialsit-news-text">
+          <span className="enaofficialsit-news-text1">2023　©　ENA</span>
+          <br></br>
+        </span>
+      </footer>
     </div>
   )
 }

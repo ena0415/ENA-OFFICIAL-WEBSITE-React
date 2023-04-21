@@ -6,16 +6,94 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(45deg, rgb(192, 36, 37) 0.00%,rgb(234, 207, 99) 81.00%,rgb(234, 207, 99) 89.00%,rgb(234, 207, 99) 96.00%,rgb(234, 207, 99) 100.00%);
+  background-color: #efb3b1;
+}
+.enaofficialsit-about-header {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fbfef7;
 }
 .enaofficialsit-about-image {
+  width: 138px;
+  height: 133px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.enaofficialsit-about-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialsit-about-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialsit-about-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.enaofficialsit-about-burger-menu {
+  display: none;
+}
+.enaofficialsit-about-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.enaofficialsit-about-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.enaofficialsit-about-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.enaofficialsit-about-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.enaofficialsit-about-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enaofficialsit-about-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.enaofficialsit-about-image1 {
   width: 180px;
-  align-self: flex-end;
+  align-self: center;
   margin-top: 10px;
   object-fit: cover;
   margin-right: 30px;
 }
-.enaofficialsit-about-image1 {
+.enaofficialsit-about-image2 {
   width: 500px;
   height: 500px;
   align-self: center;
@@ -23,7 +101,7 @@
   object-fit: cover;
   margin-left: 50px;
 }
-.enaofficialsit-about-container1 {
+.enaofficialsit-about-container4 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -92,26 +170,36 @@
 .enaofficialsit-about-text30 {
   font-size: 1.1rem;
 }
-.enaofficialsit-about-navlink {
-  display: contents;
+.enaofficialsit-about-footer {
+  width: 100%;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
 }
-.enaofficialsit-about-image2 {
-  width: 100px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-twounits);
-  text-decoration: none;
+.enaofficialsit-about-text33 {
+  color: #094bfb;
+  font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
   .enaofficialsit-about-container {
     justify-content: flex-start;
   }
-  .enaofficialsit-about-image1 {
+  .enaofficialsit-about-header {
+    background-color: var(--dl-color-gray-white);
+  }
+  .enaofficialsit-about-image2 {
     width: 395px;
     height: 451px;
     align-self: center;
     margin-left: 30px;
   }
-  .enaofficialsit-about-container1 {
+  .enaofficialsit-about-container4 {
     margin-top: 0%;
     align-items: center;
     justify-content: space-between;
@@ -221,9 +309,33 @@
   .enaofficialsit-about-text32 {
     font-size: 1.1rem;
   }
+  .enaofficialsit-about-footer {
+    background-color: var(--dl-color-gray-white);
+  }
 }
 @media(max-width: 767px) {
-  .enaofficialsit-about-image1 {
+  .enaofficialsit-about-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialsit-about-image {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .enaofficialsit-about-nav {
+    display: none;
+  }
+  .enaofficialsit-about-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .enaofficialsit-about-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialsit-about-image2 {
     width: 330px;
     height: 373px;
     margin-left: 0px;
@@ -330,12 +442,43 @@
   .enaofficialsit-about-text31 {
     font-size: 11px;
   }
+  .enaofficialsit-about-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialsit-about-text33 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .enaofficialsit-about-text34 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
+  .enaofficialsit-about-header {
+    padding: var(--dl-space-space-unit);
+  }
   .enaofficialsit-about-image {
-    width: 130px;
+    margin-right: 0px;
+  }
+  .enaofficialsit-about-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialsit-about-mobile-menu {
+    width: 214px;
+    height: 304px;
+    display: none;
+    padding: 16px;
   }
   .enaofficialsit-about-image1 {
+    width: 130px;
+  }
+  .enaofficialsit-about-image2 {
     width: 255px;
     height: 275px;
     align-self: center;
@@ -445,5 +588,21 @@
   }
   .enaofficialsit-about-text32 {
     font-size: 1.1rem;
+  }
+  .enaofficialsit-about-footer {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .enaofficialsit-about-text33 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .enaofficialsit-about-text34 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
 }

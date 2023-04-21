@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import NavigationLinks from '../components/navigation-links'
 import './ena-official-site-about.css'
 
 const ENAOFFICIALSITEAbout = (props) => {
@@ -27,17 +27,60 @@ const ENAOFFICIALSITEAbout = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/d1f84b43-563d-4e28-b67c-9b516cfae141?org_if_sml=1"
         />
       </Helmet>
+      <header data-role="Header" className="enaofficialsit-about-header">
+        <img
+          alt="logo"
+          src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+          className="enaofficialsit-about-image"
+        />
+        <div className="enaofficialsit-about-container1">
+          <div className="enaofficialsit-about-container2">
+            <div className="enaofficialsit-about-nav">
+              <NavigationLinks rootClassName="rootClassName11"></NavigationLinks>
+            </div>
+          </div>
+        </div>
+        <div
+          data-role="BurgerMenu"
+          className="enaofficialsit-about-burger-menu"
+        >
+          <svg viewBox="0 0 1024 1024" className="enaofficialsit-about-icon">
+            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+          </svg>
+        </div>
+        <div
+          data-role="MobileMenu"
+          className="enaofficialsit-about-mobile-menu"
+        >
+          <div className="enaofficialsit-about-nav1">
+            <div className="enaofficialsit-about-container3">
+              <div
+                data-role="CloseMobileMenu"
+                className="enaofficialsit-about-close-mobile-menu"
+              >
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="enaofficialsit-about-icon2"
+                >
+                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                </svg>
+              </div>
+            </div>
+            <NavigationLinks rootClassName="rootClassName10"></NavigationLinks>
+          </div>
+        </div>
+      </header>
       <img
         alt="image"
         src="/playground_assets/about-200h.png"
-        className="enaofficialsit-about-image"
+        className="enaofficialsit-about-image1"
       />
       <img
         alt="image"
         src="/playground_assets/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-500h.png"
-        className="enaofficialsit-about-image1"
+        className="enaofficialsit-about-image2"
       />
-      <div className="enaofficialsit-about-container1">
+      <div className="enaofficialsit-about-container4">
         <span className="enaofficialsit-about-text">
           <span className="enaofficialsit-about-text01">
             4月15日生まれ、A型。
@@ -99,13 +142,12 @@ const ENAOFFICIALSITEAbout = (props) => {
           <br className="enaofficialsit-about-text32"></br>
         </span>
       </div>
-      <Link to="/" className="enaofficialsit-about-navlink">
-        <img
-          alt="image"
-          src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-200h.png"
-          className="enaofficialsit-about-image2"
-        />
-      </Link>
+      <footer className="enaofficialsit-about-footer">
+        <span className="enaofficialsit-about-text33">
+          <span className="enaofficialsit-about-text34">2023　©　ENA</span>
+          <br></br>
+        </span>
+      </footer>
     </div>
   )
 }

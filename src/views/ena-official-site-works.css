@@ -7,9 +7,87 @@
   flex-direction: column;
   background-color: #bff3f7;
 }
+.enaofficialsit-works-header {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
 .enaofficialsit-works-image {
+  width: 138px;
+  height: 133px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.enaofficialsit-works-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialsit-works-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialsit-works-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.enaofficialsit-works-burger-menu {
+  display: none;
+}
+.enaofficialsit-works-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.enaofficialsit-works-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.enaofficialsit-works-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.enaofficialsit-works-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.enaofficialsit-works-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enaofficialsit-works-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.enaofficialsit-works-image1 {
   width: 180px;
-  align-self: flex-end;
+  align-self: center;
   margin-top: 10px;
   object-fit: cover;
   margin-right: 15px;
@@ -312,17 +390,26 @@
 .enaofficialsit-works-text102 {
   color: #080808;
 }
-.enaofficialsit-works-navlink {
-  display: contents;
+.enaofficialsit-works-footer {
+  width: 100%;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
 }
-.enaofficialsit-works-image1 {
-  width: 100px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-twounits);
-  padding-bottom: 0px;
-  text-decoration: none;
+.enaofficialsit-works-text105 {
+  color: #094bfb;
+  font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
+  .enaofficialsit-works-header {
+    background-color: var(--dl-color-gray-white);
+  }
   .enaofficialsit-works-text015 {
     margin-left: 0px;
   }
@@ -351,8 +438,32 @@
   .enaofficialsit-works-text102 {
     color: #080808;
   }
+  .enaofficialsit-works-footer {
+    background-color: var(--dl-color-gray-white);
+  }
 }
 @media(max-width: 767px) {
+  .enaofficialsit-works-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialsit-works-image {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .enaofficialsit-works-nav {
+    display: none;
+  }
+  .enaofficialsit-works-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .enaofficialsit-works-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
   .enaofficialsit-works-text015 {
     font-size: 14px;
     font-family: Shippori Antique;
@@ -616,9 +727,40 @@
   .enaofficialsit-works-text103 {
     font-size: 11px;
   }
+  .enaofficialsit-works-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialsit-works-text105 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .enaofficialsit-works-text106 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
+  .enaofficialsit-works-header {
+    padding: var(--dl-space-space-unit);
+  }
   .enaofficialsit-works-image {
+    margin-right: 0px;
+  }
+  .enaofficialsit-works-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialsit-works-mobile-menu {
+    width: 214px;
+    height: 304px;
+    display: none;
+    padding: 16px;
+  }
+  .enaofficialsit-works-image1 {
     width: 130px;
     margin-right: 15px;
   }
@@ -659,5 +801,21 @@
   }
   .enaofficialsit-works-text102 {
     color: #080808;
+  }
+  .enaofficialsit-works-footer {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .enaofficialsit-works-text105 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .enaofficialsit-works-text106 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import NavigationLinks from '../components/navigation-links'
 import FeatureCard2 from '../components/feature-card2'
 import FeatureCard21 from '../components/feature-card21'
 import './ena-official-site-works.css'
@@ -29,10 +29,53 @@ const ENAOFFICIALSITEWorks = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/2dbca4f9-50b5-46c7-93d6-10becb8c4006?org_if_sml=1"
         />
       </Helmet>
+      <header data-role="Header" className="enaofficialsit-works-header">
+        <img
+          alt="logo"
+          src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+          className="enaofficialsit-works-image"
+        />
+        <div className="enaofficialsit-works-container1">
+          <div className="enaofficialsit-works-container2">
+            <div className="enaofficialsit-works-nav">
+              <NavigationLinks rootClassName="rootClassName9"></NavigationLinks>
+            </div>
+          </div>
+        </div>
+        <div
+          data-role="BurgerMenu"
+          className="enaofficialsit-works-burger-menu"
+        >
+          <svg viewBox="0 0 1024 1024" className="enaofficialsit-works-icon">
+            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+          </svg>
+        </div>
+        <div
+          data-role="MobileMenu"
+          className="enaofficialsit-works-mobile-menu"
+        >
+          <div className="enaofficialsit-works-nav1">
+            <div className="enaofficialsit-works-container3">
+              <div
+                data-role="CloseMobileMenu"
+                className="enaofficialsit-works-close-mobile-menu"
+              >
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="enaofficialsit-works-icon2"
+                >
+                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                </svg>
+              </div>
+            </div>
+            <NavigationLinks rootClassName="rootClassName8"></NavigationLinks>
+          </div>
+        </div>
+      </header>
       <img
         alt="image"
         src="/playground_assets/works-200h.png"
-        className="enaofficialsit-works-image"
+        className="enaofficialsit-works-image1"
       />
       <label className="enaofficialsit-works-text">
         <br></br>
@@ -409,7 +452,7 @@ const ENAOFFICIALSITEWorks = (props) => {
         <span className="enaofficialsit-works-text056">（2012年）</span>
         <br className="enaofficialsit-works-text057"></br>
         <span className="enaofficialsit-works-text058">
-          中村繪里子「らららなかむランド」＠
+          中村繪里子「らららなかむランド」＠
         </span>
         <span className="enaofficialsit-works-text059">
           相模女子大学グリーンホール
@@ -488,13 +531,12 @@ const ENAOFFICIALSITEWorks = (props) => {
         <br className="enaofficialsit-works-text103"></br>
         <br></br>
       </span>
-      <Link to="/" className="enaofficialsit-works-navlink">
-        <img
-          alt="image"
-          src="/playground_assets/%E3%83%AD%E3%82%B3%E3%82%99%E9%BB%92-200h.png"
-          className="enaofficialsit-works-image1"
-        />
-      </Link>
+      <footer className="enaofficialsit-works-footer">
+        <span className="enaofficialsit-works-text105">
+          <span className="enaofficialsit-works-text106">2023　©　ENA</span>
+          <br></br>
+        </span>
+      </footer>
     </div>
   )
 }
