@@ -44,25 +44,25 @@
 .navigation-links-root-class-name9 {
   margin-left: 0px;
   margin-right: 30px;
-  background-color: #ffffff;
+  background-color: #bff3f7;
 }
 
 .navigation-links-root-class-name11 {
   margin-left: 0px;
   margin-right: 30px;
-  background-color: #ffffff;
+  background-color: #bff3f7;
 }
 .navigation-links-root-class-name17 {
   margin-left: 0px;
   margin-right: 30px;
-  background-color: #ffffff;
+  background-color: var(--dl-color-gray-white);
 }
 
 
 .navigation-links-root-class-name13 {
   margin-left: 0px;
   margin-right: 30px;
-  background-color: #ffffff;
+  background-color: #bff3f7;
 }
 @media(max-width: 991px) {
   .navigation-links-nav {

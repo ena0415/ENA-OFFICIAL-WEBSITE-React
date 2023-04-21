@@ -9,6 +9,7 @@
 }
 .enaofficialsite-header {
   width: 100%;
+  height: auto;
   display: flex;
   align-self: center;
   align-items: center;
@@ -108,7 +109,7 @@
 }
 .enaofficialsite-footer {
   width: 100%;
-  height: 108px;
+  height: auto;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
