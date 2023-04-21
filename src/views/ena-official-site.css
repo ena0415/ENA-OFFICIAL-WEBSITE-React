@@ -15,11 +15,15 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
+.enaofficialsite-navlink {
+  display: contents;
+}
 .enaofficialsite-image {
   width: 138px;
   height: 133px;
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
 .enaofficialsite-container1 {
   flex: 0 0 auto;
