@@ -17,11 +17,15 @@
   justify-content: space-between;
   background-color: #bff3f7v;
 }
+.enaofficialsit-about-navlink {
+  display: contents;
+}
 .enaofficialsit-about-image {
   width: 138px;
   height: 133px;
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
 .enaofficialsit-about-container1 {
   flex: 0 0 auto;

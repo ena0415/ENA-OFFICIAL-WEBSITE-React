@@ -16,11 +16,15 @@
   justify-content: space-between;
   background-color: #bff3f7;
 }
+.enaofficialsit-news-navlink {
+  display: contents;
+}
 .enaofficialsit-news-image {
   width: 138px;
   height: 133px;
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
 .enaofficialsit-news-container1 {
   flex: 0 0 auto;

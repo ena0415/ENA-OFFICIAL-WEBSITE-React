@@ -9,18 +9,22 @@
 }
 .enaofficialsit-works-header {
   width: 100%;
-  height: 117px;
+  height: auto;
   display: flex;
   align-self: center;
   align-items: center;
   justify-content: space-between;
   background-color: #bff3f7;
 }
+.enaofficialsit-works-navlink {
+  display: contents;
+}
 .enaofficialsit-works-image {
   width: 138px;
   height: 133px;
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
 .enaofficialsit-works-container1 {
   flex: 0 0 auto;

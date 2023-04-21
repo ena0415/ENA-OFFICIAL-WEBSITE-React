@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -30,11 +31,13 @@ const ENAOFFICIALSITENews = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="enaofficialsit-news-header">
-        <img
-          alt="logo"
-          src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
-          className="enaofficialsit-news-image"
-        />
+        <Link to="/" className="enaofficialsit-news-navlink">
+          <img
+            alt="logo"
+            src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+            className="enaofficialsit-news-image"
+          />
+        </Link>
         <div className="enaofficialsit-news-container1">
           <div className="enaofficialsit-news-container2">
             <div className="enaofficialsit-news-nav">
