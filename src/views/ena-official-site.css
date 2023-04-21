@@ -92,7 +92,7 @@
 }
 .enaofficialsite-hero {
   width: 100%;
-  height: 699px;
+  height: auto;
   display: flex;
   min-height: 80vh;
   align-items: center;
@@ -176,6 +176,9 @@
   }
 }
 @media(max-width: 479px) {
+  .enaofficialsite-container {
+    justify-content: space-between;
+  }
   .enaofficialsite-header {
     padding: var(--dl-space-space-unit);
   }
@@ -194,7 +197,7 @@
     padding: 16px;
   }
   .enaofficialsite-hero {
-    height: 788px;
+    height: auto;
     position: relative;
     min-height: auto;
     padding-top: 0px;
@@ -205,6 +208,7 @@
   .enaofficialsite-image1 {
     width: 100%;
     height: 70％;
+    margin-top: -20%%;
     padding-right: 0px;
   }
   .enaofficialsite-footer {
