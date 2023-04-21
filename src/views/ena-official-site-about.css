@@ -185,7 +185,7 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
-  background-color: #bff3f7;
+  background-color: var(--dl-color-gray-white);
 }
 .enaofficialsit-about-text33 {
   color: #094bfb;
@@ -315,7 +315,7 @@
     font-size: 1.1rem;
   }
   .enaofficialsit-about-footer {
-    background-color: #bff3f7;
+    background-color: var(--dl-color-gray-white);
   }
 }
 @media(max-width: 767px) {

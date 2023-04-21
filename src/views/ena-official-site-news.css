@@ -107,7 +107,7 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
-  background-color: #bff3f7;
+  background-color: var(--dl-color-gray-white);
 }
 .enaofficialsit-news-text {
   color: #094bfb;
@@ -118,7 +118,7 @@
     background-color: #bff3f7;
   }
   .enaofficialsit-news-footer {
-    background-color: #bff3f7;
+    background-color: var(--dl-color-gray-white);
   }
 }
 @media(max-width: 767px) {
