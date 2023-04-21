@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #BFF3F7;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
 }
 .enaofficialsit-news-header {
   width: 100%;
@@ -14,7 +14,6 @@
   align-self: center;
   align-items: center;
   justify-content: space-between;
-  background-color: #bff3f7;
 }
 .enaofficialsit-news-navlink {
   display: contents;
@@ -114,9 +113,6 @@
   font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
-  .enaofficialsit-news-header {
-    background-color: #bff3f7;
-  }
   .enaofficialsit-news-footer {
     background-color: var(--dl-color-gray-white);
   }

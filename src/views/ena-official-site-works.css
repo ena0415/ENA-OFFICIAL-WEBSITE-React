@@ -5,7 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #bff3f7;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
 }
 .enaofficialsit-works-header {
   width: 100%;
@@ -14,7 +14,6 @@
   align-self: center;
   align-items: center;
   justify-content: space-between;
-  background-color: #bff3f7;
 }
 .enaofficialsit-works-navlink {
   display: contents;
@@ -412,9 +411,6 @@
   font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
-  .enaofficialsit-works-header {
-    background-color: #bff3f7;
-  }
   .enaofficialsit-works-text015 {
     margin-left: 0px;
   }
@@ -452,6 +448,7 @@
   .enaofficialsit-works-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+    background-color: transparent;
   }
   .enaofficialsit-works-image {
     margin-left: 0px;
@@ -753,6 +750,7 @@
 @media(max-width: 479px) {
   .enaofficialsit-works-header {
     padding: var(--dl-space-space-unit);
+    background-color: transparent;
   }
   .enaofficialsit-works-image {
     margin-right: 0px;

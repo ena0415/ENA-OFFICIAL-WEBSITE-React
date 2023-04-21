@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #bff3f7;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
 }
 .enaofficialsit-about-header {
   width: 100%;
@@ -194,9 +194,6 @@
 @media(max-width: 991px) {
   .enaofficialsit-about-container {
     justify-content: flex-start;
-  }
-  .enaofficialsit-about-header {
-    background-color: #bff3f7;
   }
   .enaofficialsit-about-image2 {
     width: 395px;
