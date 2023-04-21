@@ -15,7 +15,7 @@
   align-self: center;
   align-items: center;
   justify-content: space-between;
-  background-color: #bff3f7v;
+  background-color: var(--dl-color-gray-white);
 }
 .enaofficialsit-about-navlink {
   display: contents;

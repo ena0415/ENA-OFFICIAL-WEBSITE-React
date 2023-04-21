@@ -14,6 +14,7 @@
   align-self: center;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
 }
 .enaofficialsit-works-navlink {
   display: contents;
@@ -448,7 +449,7 @@
   .enaofficialsit-works-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-    background-color: transparent;
+    background-color: var(--dl-color-gray-white);
   }
   .enaofficialsit-works-image {
     margin-left: 0px;
@@ -750,7 +751,7 @@
 @media(max-width: 479px) {
   .enaofficialsit-works-header {
     padding: var(--dl-space-space-unit);
-    background-color: transparent;
+    background-color: var(--dl-color-gray-white);
   }
   .enaofficialsit-works-image {
     margin-right: 0px;
