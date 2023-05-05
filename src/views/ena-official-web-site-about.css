@@ -343,17 +343,18 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 260px;
+    height: 300px;
     margin: auto;
-    display: flex;
+    display: none;
     align-items: center;
+    justify-content: flex-start;
   }
   .enaofficialwebsit-about-nav1 {
     position: relative;
     align-self: center;
   }
   .enaofficialwebsit-about-container3 {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   .enaofficialwebsit-about-close-mobile-menu {
     position: relative;
@@ -362,6 +363,7 @@
     fill: #094bfb;
     width: 30px;
     height: 30px;
+    align-self: center;
   }
   .enaofficialwebsit-about-image2 {
     width: 330px;
@@ -501,18 +503,21 @@
   .enaofficialwebsit-about-mobile-menu {
     width: 100%;
     height: 250px;
-    display: flex;
+    display: none;
     padding: 16px;
     position: 0px;
     align-items: stretch;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
   .enaofficialwebsit-about-nav1 {
     position: relative;
     align-self: center;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .enaofficialwebsit-about-container3 {
+    margin-bottom: 20px;
   }
   .enaofficialwebsit-about-close-mobile-menu {
     position: relative;
@@ -523,7 +528,7 @@
     fill: #094bfb;
     width: 30px;
     height: 30px;
-    align-self: flex-start;
+    align-self: flex-end;
   }
   .enaofficialwebsit-about-image1 {
     width: 130px;

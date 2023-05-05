@@ -470,7 +470,7 @@
   }
   .enaofficialwebsit-works-mobile-menu {
     height: 350px;
-    display: flex;
+    display: none;
   }
   .enaofficialwebsit-works-nav1 {
     top: 32px;
@@ -481,12 +481,9 @@
     position: absolute;
     align-self: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .enaofficialwebsit-works-container3 {
-    top: 46px;
-    left: 0px;
-    position: absolute;
     align-self: flex-start;
   }
   .enaofficialwebsit-works-close-mobile-menu {
@@ -497,7 +494,7 @@
     width: 30px;
     height: 30px;
     align-self: stretch;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-twounits);
   }
   .enaofficialwebsit-works-text015 {
     font-size: 14px;
@@ -796,11 +793,16 @@
   .enaofficialwebsit-works-mobile-menu {
     width: 100%;
     height: 304px;
-    display: flex;
+    display: none;
     padding: 16px;
   }
+  .enaofficialwebsit-works-nav1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
   .enaofficialwebsit-works-container3 {
-    margin-bottom: 20px;
+    position: static;
   }
   .enaofficialwebsit-works-image1 {
     width: 130px;
