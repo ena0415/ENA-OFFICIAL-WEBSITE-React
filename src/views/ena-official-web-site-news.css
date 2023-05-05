@@ -120,6 +120,7 @@
 }
 @media(max-width: 767px) {
   .enaofficialwebsit-news-header {
+    position: relative;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -142,7 +143,15 @@
   }
   .enaofficialwebsit-news-mobile-menu {
     height: 300px;
-    display: none;
+    display: flex;
+    position: 0px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+  .enaofficialwebsit-news-nav1 {
+    align-self: center;
+    align-items: stretch;
+    justify-content: center;
   }
   .enaofficialwebsit-news-container3 {
     align-self: flex-start;
@@ -183,8 +192,9 @@
   .enaofficialwebsit-news-mobile-menu {
     width: 100%;
     height: 304px;
-    display: none;
     padding: 16px;
+    align-items: center;
+    justify-content: center;
   }
   .enaofficialwebsit-news-image1 {
     width: 130px;
