@@ -39,7 +39,7 @@ const ENAOFFICIALWEBSITEAbout = (props) => {
         <div className="enaofficialwebsit-about-container1">
           <div className="enaofficialwebsit-about-container2">
             <div className="enaofficialwebsit-about-nav">
-              <NavigationLinks rootClassName="rootClassName11"></NavigationLinks>
+              <NavigationLinks rootClassName="rootClassName15"></NavigationLinks>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const ENAOFFICIALWEBSITEAbout = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks rootClassName="rootClassName10"></NavigationLinks>
+            <NavigationLinks rootClassName="rootClassName14"></NavigationLinks>
           </div>
         </div>
       </header>

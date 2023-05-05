@@ -195,6 +195,9 @@
   .enaofficialwebsit-about-container {
     justify-content: flex-start;
   }
+  .enaofficialwebsit-about-header {
+    background-color: var(--dl-color-gray-white);
+  }
   .enaofficialwebsit-about-image2 {
     width: 395px;
     height: 451px;
@@ -317,8 +320,6 @@
 }
 @media(max-width: 767px) {
   .enaofficialwebsit-about-header {
-    border-color: var(--dl-color-gray-black);
-    border-width: 0px;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -340,30 +341,19 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-about-mobile-menu {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 300px;
-    margin: auto;
+    height: auto;
     display: none;
-    align-items: center;
-    justify-content: flex-start;
   }
   .enaofficialwebsit-about-nav1 {
-    position: relative;
-    align-self: center;
+    align-items: center;
   }
   .enaofficialwebsit-about-container3 {
     margin-bottom: 20px;
-  }
-  .enaofficialwebsit-about-close-mobile-menu {
-    position: relative;
   }
   .enaofficialwebsit-about-icon2 {
     fill: #094bfb;
     width: 30px;
     height: 30px;
-    align-self: center;
   }
   .enaofficialwebsit-about-image2 {
     width: 330px;
@@ -501,33 +491,22 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-about-mobile-menu {
+    left: 0px;
+    right: 0px;
     width: 100%;
-    height: 250px;
+    height: auto;
+    margin: auto;
     display: none;
     padding: 16px;
-    position: 0px;
     align-items: stretch;
-    flex-direction: column;
-    justify-content: center;
   }
   .enaofficialwebsit-about-nav1 {
-    align-self: center;
     align-items: center;
-    flex-direction: column;
-  }
-  .enaofficialwebsit-about-container3 {
-    margin-bottom: 20px;
-  }
-  .enaofficialwebsit-about-close-mobile-menu {
-    position: relative;
-    border-color: var(--dl-color-gray-black);
-    border-width: 0px;
   }
   .enaofficialwebsit-about-icon2 {
     fill: #094bfb;
     width: 30px;
     height: 30px;
-    align-self: flex-end;
     border-color: var(--dl-color-gray-black);
     border-width: 0px;
   }

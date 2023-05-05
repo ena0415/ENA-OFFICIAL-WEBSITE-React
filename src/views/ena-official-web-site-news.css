@@ -10,6 +10,7 @@
 }
 .enaofficialwebsit-news-header {
   width: 100%;
+  height: auto;
   display: flex;
   align-self: center;
   align-items: center;
@@ -114,13 +115,15 @@
   font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
+  .enaofficialwebsit-news-header {
+    background-color: var(--dl-color-gray-white);
+  }
   .enaofficialwebsit-news-footer {
     background-color: var(--dl-color-gray-white);
   }
 }
 @media(max-width: 767px) {
   .enaofficialwebsit-news-header {
-    position: relative;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -142,15 +145,13 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-news-mobile-menu {
-    height: 300px;
+    height: auto;
     display: none;
-    position: 0px;
   }
   .enaofficialwebsit-news-nav1 {
-    align-self: center;
+    align-items: center;
   }
   .enaofficialwebsit-news-container3 {
-    align-self: flex-start;
     margin-bottom: 20px;
   }
   .enaofficialwebsit-news-icon2 {
@@ -176,6 +177,7 @@
 @media(max-width: 479px) {
   .enaofficialwebsit-news-header {
     padding: var(--dl-space-space-unit);
+    position: relative;
   }
   .enaofficialwebsit-news-image {
     margin-right: 0px;
@@ -186,12 +188,24 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-news-mobile-menu {
+    left: 0px;
+    right: 0px;
     width: 100%;
-    height: 304px;
+    height: auto;
+    margin: auto;
     display: none;
     padding: 16px;
+    align-items: stretch;
+  }
+  .enaofficialwebsit-news-nav1 {
     align-items: center;
-    justify-content: center;
+  }
+  .enaofficialwebsit-news-icon2 {
+    fill: #094bfb;
+    width: 30px;
+    height: 30px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
   }
   .enaofficialwebsit-news-image1 {
     width: 130px;

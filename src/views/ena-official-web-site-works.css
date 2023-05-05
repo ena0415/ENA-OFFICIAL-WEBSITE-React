@@ -412,6 +412,9 @@
   font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
+  .enaofficialwebsit-works-header {
+    background-color: var(--dl-color-gray-white);
+  }
   .enaofficialwebsit-works-text015 {
     margin-left: 0px;
   }
@@ -449,7 +452,6 @@
   .enaofficialwebsit-works-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-    background-color: var(--dl-color-gray-white);
   }
   .enaofficialwebsit-works-image {
     margin-left: 0px;
@@ -469,33 +471,19 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-works-mobile-menu {
-    height: var(--dl-size-size-xxlarge);
+    height: auto;
     display: none;
   }
   .enaofficialwebsit-works-nav1 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: auto;
-    position: absolute;
-    align-self: center;
     align-items: center;
-    justify-content: flex-start;
   }
   .enaofficialwebsit-works-container3 {
-    align-self: flex-start;
     margin-bottom: 20px;
-  }
-  .enaofficialwebsit-works-close-mobile-menu {
-    position: relative;
   }
   .enaofficialwebsit-works-icon2 {
     fill: #094bfb;
     width: 30px;
     height: 30px;
-    align-self: stretch;
-    margin-left: var(--dl-space-space-twounits);
   }
   .enaofficialwebsit-works-text015 {
     font-size: 14px;
@@ -781,7 +769,6 @@
   .enaofficialwebsit-works-header {
     padding: var(--dl-space-space-unit);
     position: relative;
-    background-color: var(--dl-color-gray-white);
   }
   .enaofficialwebsit-works-image {
     margin-right: 0px;
@@ -792,18 +779,24 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-works-mobile-menu {
+    left: 0px;
+    right: 0px;
     width: 100%;
-    height: var(--dl-size-size-xxlarge);
+    height: auto;
+    margin: auto;
     display: none;
     padding: 16px;
+    align-items: stretch;
   }
   .enaofficialwebsit-works-nav1 {
     align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
   }
-  .enaofficialwebsit-works-container3 {
-    position: static;
+  .enaofficialwebsit-works-icon2 {
+    fill: #094bfb;
+    width: 30px;
+    height: 30px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
   }
   .enaofficialwebsit-works-image1 {
     width: 130px;
