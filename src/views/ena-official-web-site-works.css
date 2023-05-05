@@ -468,6 +468,15 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
+  .enaofficialwebsit-works-mobile-menu {
+    height: 350px;
+    display: none;
+  }
+  .enaofficialwebsit-works-icon2 {
+    fill: #094bfb;
+    width: 30px;
+    height: 30px;
+  }
   .enaofficialwebsit-works-text015 {
     font-size: 14px;
     font-family: Shippori Antique;
@@ -762,10 +771,16 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-works-mobile-menu {
-    width: 214px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
     height: 304px;
+    margin: auto;
     display: none;
     padding: 16px;
+  }
+  .enaofficialwebsit-works-container3 {
+    margin-bottom: 20px;
   }
   .enaofficialwebsit-works-image1 {
     width: 130px;
