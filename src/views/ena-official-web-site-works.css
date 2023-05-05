@@ -469,7 +469,7 @@
     height: var(--dl-size-size-small);
   }
   .enaofficialwebsit-works-mobile-menu {
-    height: 350px;
+    height: var(--dl-size-size-xxlarge);
     display: none;
   }
   .enaofficialwebsit-works-nav1 {
@@ -485,6 +485,7 @@
   }
   .enaofficialwebsit-works-container3 {
     align-self: flex-start;
+    margin-bottom: 20px;
   }
   .enaofficialwebsit-works-close-mobile-menu {
     position: relative;
@@ -792,7 +793,7 @@
   }
   .enaofficialwebsit-works-mobile-menu {
     width: 100%;
-    height: 304px;
+    height: var(--dl-size-size-xxlarge);
     display: none;
     padding: 16px;
   }
