@@ -50,17 +50,17 @@
   margin-left: 0px;
   margin-right: 30px;
 }
+
+.navigation-links-root-class-name13 {
+  margin-left: 0px;
+  margin-right: 30px;
+}
 .navigation-links-root-class-name17 {
   margin-left: 0px;
   margin-right: 30px;
   background-color: var(--dl-color-gray-white);
 }
 
-
-.navigation-links-root-class-name13 {
-  margin-left: 0px;
-  margin-right: 30px;
-}
 @media(max-width: 991px) {
   .navigation-links-nav {
     margin-left: var(--dl-space-space-oneandhalfunits);
@@ -94,10 +94,10 @@
   .navigation-links-root-class-name10 {
     align-self: flex-start;
   }
-  .navigation-links-root-class-name18 {
+  .navigation-links-root-class-name12 {
     align-self: flex-start;
   }
-  .navigation-links-root-class-name12 {
+  .navigation-links-root-class-name18 {
     align-self: flex-start;
   }
 }

@@ -3,30 +3,30 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import ENAOFFICIALSITE from './views/ena-official-site'
-import ENAOFFICIALSITEAbout from './views/ena-official-site-about'
-import ENAOFFICIALSITENews from './views/ena-official-site-news'
-import ENAOFFICIALSITEWorks from './views/ena-official-site-works'
+import ENAOFFICIALWEBSITE from './views/ena-official-web-site'
+import ENAOFFICIALWEBSITEAbout from './views/ena-official-web-site-about'
+import ENAOFFICIALWEBSITENews from './views/ena-official-web-site-news'
+import ENAOFFICIALWEBSITEWorks from './views/ena-official-web-site-works'
 
 const App = () => {
   return (
     <Router>
       <div>
-        <Route component={ENAOFFICIALSITE} exact path="/" />
+        <Route component={ENAOFFICIALWEBSITE} exact path="/" />
         <Route
-          component={ENAOFFICIALSITEAbout}
+          component={ENAOFFICIALWEBSITEAbout}
           exact
-          path="/ena-official-site-about"
+          path="/ena-official-web-site-about"
         />
         <Route
-          component={ENAOFFICIALSITENews}
+          component={ENAOFFICIALWEBSITENews}
           exact
-          path="/ena-official-site-news"
+          path="/ena-official-web-site-news"
         />
         <Route
-          component={ENAOFFICIALSITEWorks}
+          component={ENAOFFICIALWEBSITEWorks}
           exact
-          path="/ena-official-site-works"
+          path="/ena-official-web-site-works"
         />
       </div>
     </Router>
