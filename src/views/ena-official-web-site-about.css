@@ -318,7 +318,7 @@
 @media(max-width: 767px) {
   .enaofficialwebsit-about-header {
     border-color: var(--dl-color-gray-black);
-    border-width: 1px;
+    border-width: 0px;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
