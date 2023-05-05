@@ -522,13 +522,15 @@
   .enaofficialwebsit-about-close-mobile-menu {
     position: relative;
     border-color: var(--dl-color-gray-black);
-    border-width: 1px;
+    border-width: 0px;
   }
   .enaofficialwebsit-about-icon2 {
     fill: #094bfb;
     width: 30px;
     height: 30px;
     align-self: flex-end;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
   }
   .enaofficialwebsit-about-image1 {
     width: 130px;

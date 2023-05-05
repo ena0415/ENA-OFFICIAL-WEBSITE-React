@@ -223,6 +223,8 @@
     fill: #094bfb;
     width: 30px;
     height: 30px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
   }
   .enaofficialwebsite-hero {
     height: auto;
