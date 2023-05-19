@@ -324,6 +324,30 @@ const ENAOFFICIALWEBSITEWorks = (props) => {
         description="1st アルバム　King&amp;Prince　収録"
         rootClassName="rootClassName21"
       ></FeatureCard2>
+      <FeatureCard2
+        year="2019"
+        title="生まれる願い"
+        artist="ウタ・アリィ"
+        link_text="https://recochoku.jp/album/A2001601297/album?ds=1008492112"
+        description="TVアニメフルーツバスケット 1st season 挿入歌"
+        rootClassName="rootClassName23"
+      ></FeatureCard2>
+      <FeatureCard2
+        year="2020"
+        title="馳せる未来"
+        artist="ウタ・アリィ"
+        link_text="https://recochoku.jp/song/S1010152584/"
+        description="TVアニメフルーツバスケット 2nd Season 挿入歌"
+        rootClassName="rootClassName33"
+      ></FeatureCard2>
+      <FeatureCard2
+        year="2021"
+        title="明日への境界線"
+        artist="雪花ラミィ"
+        link_text="https://www.youtube.com/watch?v=ULtGHb83pTI"
+        description="ホロライブ　雪花ラミィ初のオリジナル楽曲"
+        rootClassName="rootClassName34"
+      ></FeatureCard2>
       <label className="enaofficialwebsit-works-text010">
         <br></br>
         <span>コーラス</span>
@@ -455,7 +479,7 @@ const ENAOFFICIALWEBSITEWorks = (props) => {
         <span className="enaofficialwebsit-works-text056">（2012年）</span>
         <br className="enaofficialwebsit-works-text057"></br>
         <span className="enaofficialwebsit-works-text058">
-          中村繪里子「らららなかむランド」＠
+          中村繪里子「らららなかむランド」＠
         </span>
         <span className="enaofficialwebsit-works-text059">
           相模女子大学グリーンホール
