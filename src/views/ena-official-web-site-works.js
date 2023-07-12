@@ -34,7 +34,7 @@ const ENAOFFICIALWEBSITEWorks = (props) => {
         <Link to="/" className="enaofficialwebsit-works-navlink">
           <img
             alt="logo"
-            src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+            src="/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
             className="enaofficialwebsit-works-image"
           />
         </Link>
@@ -77,7 +77,7 @@ const ENAOFFICIALWEBSITEWorks = (props) => {
       </header>
       <img
         alt="image"
-        src="/playground_assets/works-200h.png"
+        src="/works-200h.png"
         className="enaofficialwebsit-works-image1"
       />
       <label className="enaofficialwebsit-works-text">
@@ -479,7 +479,7 @@ const ENAOFFICIALWEBSITEWorks = (props) => {
         <span className="enaofficialwebsit-works-text056">（2012年）</span>
         <br className="enaofficialwebsit-works-text057"></br>
         <span className="enaofficialwebsit-works-text058">
-          中村繪里子「らららなかむランド」＠
+          中村繪里子「らららなかむランド」＠
         </span>
         <span className="enaofficialwebsit-works-text059">
           相模女子大学グリーンホール

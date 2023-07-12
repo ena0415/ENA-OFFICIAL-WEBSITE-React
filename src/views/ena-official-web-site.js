@@ -29,7 +29,7 @@ const ENAOFFICIALWEBSITE = (props) => {
         <Link to="/" className="enaofficialwebsite-navlink">
           <img
             alt="logo"
-            src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+            src="/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
             className="enaofficialwebsite-image"
           />
         </Link>
@@ -67,7 +67,7 @@ const ENAOFFICIALWEBSITE = (props) => {
       <div className="enaofficialwebsite-hero">
         <img
           alt="image"
-          src="/playground_assets/ena%20official%20site-2-1500h.png"
+          src="/ena%20official%20site-2-1500h.png"
           className="enaofficialwebsite-image1"
         />
       </div>

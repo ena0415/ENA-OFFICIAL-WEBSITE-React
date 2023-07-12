@@ -32,7 +32,7 @@ const ENAOFFICIALWEBSITEAbout = (props) => {
         <Link to="/" className="enaofficialwebsit-about-navlink">
           <img
             alt="logo"
-            src="/playground_assets/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
+            src="/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
             className="enaofficialwebsit-about-image"
           />
         </Link>
@@ -75,12 +75,12 @@ const ENAOFFICIALWEBSITEAbout = (props) => {
       </header>
       <img
         alt="image"
-        src="/playground_assets/about-200h.png"
+        src="/about-200h.png"
         className="enaofficialwebsit-about-image1"
       />
       <img
         alt="image"
-        src="/playground_assets/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-500h.png"
+        src="/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-500h.png"
         className="enaofficialwebsit-about-image2"
       />
       <div className="enaofficialwebsit-about-container4">
