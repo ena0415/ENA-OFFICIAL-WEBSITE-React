@@ -82,12 +82,21 @@ const ENAOFFICIALWEBSITENews = (props) => {
       />
       <FeatureCard3
         text="Listen"
+        title="はちみつBLACK　2ndアルバム『INFINITYMARCH』"
+        image_src="/%C3%A3%C2%83%C2%95%C3%A3%C2%82%C2%A1%C3%A3%C2%82%C2%A4%C3%A3%C2%83%C2%AB-2023-05-23-15-47-01_2-200h.jpg"
+        link_text="https://tower.jp/item/5721424/INFINITYMARCH%EF%BC%9CType-A%EF%BC%9E"
+        description="2023.8.15"
+        rootClassName="rootClassName8"
+        description1=" M2ワッショイ賛歌　作詞担当／作曲:山田高弘"
+      ></FeatureCard3>
+      <FeatureCard3
+        text="Listen"
         title="井上あずみ　Dear GHIBLI II"
         image_src="/resize_image.php-200h.jpeg"
         link_text="https://tower.jp/item/5722878/Dear-GHIBLI-II"
         description="2023.7.5"
-        rootClassName="rootClassName8"
         description1="『となりのトトロ2023』にハルナ・ENA・ツヤトモヒコの3人でコーラスで参加／編曲:河野伸"
+        rootClassName="rootClassName13"
       ></FeatureCard3>
       <FeatureCard4
         text="Official Site"
@@ -95,6 +104,7 @@ const ENAOFFICIALWEBSITENews = (props) => {
         image_src="/tatsuro2-200h.png"
         link_text="https://www.tatsuro.co.jp/live/"
         description="2023.4.2"
+        description1="今年も山下達郎の全国ホール・ツアーが決定いたしました。 夏から秋にかけて、18都市39公演のツアーです。"
       ></FeatureCard4>
       <FeatureCard3
         text="Listen"
