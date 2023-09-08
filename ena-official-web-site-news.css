@@ -1,0 +1,534 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  color: #094bfb;
+  font-size: 26px;
+  font-family: Yuji Syuku;
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  color: #094bfb;
+  font-size: 26px;
+  font-family: Yuji Syuku;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2 {
+  color: #094bfb;
+  font-size: 26px;
+  font-family: Yuji Syuku;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-link {
+  color: #094bfb;
+  font-size: 26px;
+  font-family: Yuji Syuku;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name9 {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.navigation-links-root-class-name11 {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.navigation-links-root-class-name13 {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.navigation-links-root-class-name15 {
+  margin-left: 0px;
+  margin-right: 30px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.navigation-links-root-class-name17 {
+  margin-left: 0px;
+  margin-right: 30px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.navigation-links-root-class-name19 {
+  margin-left: 0px;
+  margin-right: 30px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.navigation-links-root-class-name21 {
+  margin-left: 0px;
+  margin-right: 30px;
+  background-color: var(--dl-color-gray-white);
+}
+@media(max-width: 991px) {
+  .navigation-links-nav {
+    margin-left: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-link {
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-root-class-name8 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name10 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name12 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name14 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name16 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name18 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name20 {
+    align-self: center;
+    margin-left: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-navlink {
+    align-self: center;
+  }
+  .navigation-links-navlink1 {
+    align-self: center;
+  }
+  .navigation-links-navlink2 {
+    align-self: center;
+  }
+  .navigation-links-link {
+    align-self: center;
+  }
+  .navigation-links-root-class-name8 {
+    align-self: center;
+  }
+  .navigation-links-root-class-name10 {
+    align-self: flex-start;
+  }
+  .navigation-links-root-class-name12 {
+    align-self: center;
+  }
+  .navigation-links-root-class-name14 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name16 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name18 {
+    align-self: center;
+    margin-left: 0px;
+  }
+  .navigation-links-root-class-name20 {
+    align-self: center;
+    margin-left: 0px;
+  }
+}
+
+.feature-card3-feature-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.feature-card3-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.feature-card3-text {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card3-text1 {
+  color: var(--dl-color-gray-5002);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+}
+.feature-card3-text2 {
+  color: var(--dl-color-gray-5002);
+  font-size: 14px;
+  text-align: center;
+  font-family: Inter;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.feature-card3-container {
+  display: flex;
+  position: relative;
+}
+.feature-card3-link {
+  color: var(--dl-color-gray-white1);
+  margin-top: 20px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #2a1fd8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feature-card4-feature-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.feature-card4-image {
+  width: 500px;
+  height: 150px;
+  object-fit: cover;
+}
+.feature-card4-text {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card4-text1 {
+  color: var(--dl-color-gray-5002);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+}
+.feature-card4-text2 {
+  color: var(--dl-color-gray-5002);
+  font-size: 14px;
+  text-align: center;
+  font-family: Inter;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.feature-card4-container {
+  display: flex;
+  position: relative;
+}
+.feature-card4-link {
+  color: var(--dl-color-gray-white1);
+  margin-top: 20px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #2a1fd8;
+}
+@media(max-width: 479px) {
+  .feature-card4-image {
+    width: 188px;
+    height: 56px;
+  }
+}
+
+.enaofficialwebsite-news-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
+}
+.enaofficialwebsite-news-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.enaofficialwebsite-news-navlink {
+  display: contents;
+}
+.enaofficialwebsite-news-image {
+  width: 138px;
+  height: 133px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.enaofficialwebsite-news-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialwebsite-news-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.enaofficialwebsite-news-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.enaofficialwebsite-news-burger-menu {
+  display: none;
+}
+.enaofficialwebsite-news-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.enaofficialwebsite-news-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.enaofficialwebsite-news-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.enaofficialwebsite-news-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.enaofficialwebsite-news-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enaofficialwebsite-news-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.enaofficialwebsite-news-image1 {
+  width: 180px;
+  align-self: center;
+  margin-top: 10px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.enaofficialwebsite-news-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.enaofficialwebsite-news-text {
+  color: #094bfb;
+  font-family: Yuji Syuku;
+}
+@media(max-width: 991px) {
+  .enaofficialwebsite-news-header {
+    background-color: var(--dl-color-gray-white);
+  }
+  .enaofficialwebsite-news-footer {
+    background-color: var(--dl-color-gray-white);
+  }
+}
+@media(max-width: 767px) {
+  .enaofficialwebsite-news-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialwebsite-news-image {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .enaofficialwebsite-news-nav {
+    display: none;
+  }
+  .enaofficialwebsite-news-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .enaofficialwebsite-news-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialwebsite-news-mobile-menu {
+    height: auto;
+    display: none;
+  }
+  .enaofficialwebsite-news-nav1 {
+    align-items: center;
+  }
+  .enaofficialwebsite-news-container3 {
+    margin-bottom: 20px;
+  }
+  .enaofficialwebsite-news-icon2 {
+    fill: #094bfb;
+    width: 30px;
+    height: 30px;
+  }
+  .enaofficialwebsite-news-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .enaofficialwebsite-news-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .enaofficialwebsite-news-text1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .enaofficialwebsite-news-header {
+    padding: var(--dl-space-space-unit);
+    position: relative;
+  }
+  .enaofficialwebsite-news-image {
+    margin-right: 0px;
+  }
+  .enaofficialwebsite-news-icon {
+    fill: #094bfb;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .enaofficialwebsite-news-mobile-menu {
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: none;
+    padding: 16px;
+    align-items: stretch;
+  }
+  .enaofficialwebsite-news-nav1 {
+    align-items: center;
+  }
+  .enaofficialwebsite-news-icon2 {
+    fill: #094bfb;
+    width: 30px;
+    height: 30px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+  }
+  .enaofficialwebsite-news-image1 {
+    width: 130px;
+  }
+  .enaofficialwebsite-news-footer {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .enaofficialwebsite-news-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .enaofficialwebsite-news-text1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
