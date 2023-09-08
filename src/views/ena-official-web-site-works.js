@@ -482,7 +482,7 @@ const ENAOFFICIALWEBSITEWorks = (props) => {
         <span className="enaofficialwebsite-works-text056">（2012年）</span>
         <br className="enaofficialwebsite-works-text057"></br>
         <span className="enaofficialwebsite-works-text058">
-          中村繪里子「らららなかむランド」＠
+          中村繪里子「らららなかむランド」＠
         </span>
         <span className="enaofficialwebsite-works-text059">
           相模女子大学グリーンホール
