@@ -1,4 +1,4 @@
-.enaofficialwebsit-about-container {
+.enaofficialwebsite-about-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   justify-content: flex-start;
   background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
 }
-.enaofficialwebsit-about-header {
+.enaofficialwebsite-about-header {
   width: 100%;
   height: auto;
   display: flex;
@@ -17,17 +17,17 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.enaofficialwebsit-about-navlink {
+.enaofficialwebsite-about-navlink {
   display: contents;
 }
-.enaofficialwebsit-about-image {
+.enaofficialwebsite-about-image {
   width: 138px;
   height: 133px;
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
 }
-.enaofficialwebsit-about-container1 {
+.enaofficialwebsite-about-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -35,7 +35,7 @@
   align-items: space-between;
   flex-direction: column;
 }
-.enaofficialwebsit-about-container2 {
+.enaofficialwebsite-about-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -43,21 +43,21 @@
   align-items: space-between;
   flex-direction: column;
 }
-.enaofficialwebsit-about-nav {
+.enaofficialwebsite-about-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.enaofficialwebsit-about-burger-menu {
+.enaofficialwebsite-about-burger-menu {
   display: none;
 }
-.enaofficialwebsit-about-icon {
+.enaofficialwebsite-about-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: flex;
 }
-.enaofficialwebsit-about-mobile-menu {
+.enaofficialwebsite-about-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -70,35 +70,35 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.enaofficialwebsit-about-nav1 {
+.enaofficialwebsite-about-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.enaofficialwebsit-about-container3 {
+.enaofficialwebsite-about-container3 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.enaofficialwebsit-about-close-mobile-menu {
+.enaofficialwebsite-about-close-mobile-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.enaofficialwebsit-about-icon2 {
+.enaofficialwebsite-about-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.enaofficialwebsit-about-image1 {
+.enaofficialwebsite-about-image1 {
   width: 180px;
   align-self: center;
   margin-top: 10px;
   object-fit: cover;
   margin-right: 30px;
 }
-.enaofficialwebsit-about-image2 {
+.enaofficialwebsite-about-image2 {
   width: 500px;
   height: 500px;
   align-self: center;
@@ -106,13 +106,13 @@
   object-fit: cover;
   margin-left: 50px;
 }
-.enaofficialwebsit-about-container4 {
+.enaofficialwebsite-about-container4 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.enaofficialwebsit-about-text {
+.enaofficialwebsite-about-text {
   color: rgb(12, 12, 12);
   width: auto;
   height: auto;
@@ -127,55 +127,55 @@
   padding-bottom: 0px;
   text-transform: uppercase;
 }
-.enaofficialwebsit-about-text01 {
+.enaofficialwebsite-about-text01 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text03 {
+.enaofficialwebsite-about-text03 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text05 {
+.enaofficialwebsite-about-text05 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text07 {
+.enaofficialwebsite-about-text07 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text09 {
+.enaofficialwebsite-about-text09 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text11 {
+.enaofficialwebsite-about-text11 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text12 {
+.enaofficialwebsite-about-text12 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text14 {
+.enaofficialwebsite-about-text14 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text15 {
+.enaofficialwebsite-about-text15 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text16 {
+.enaofficialwebsite-about-text16 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text20 {
+.enaofficialwebsite-about-text20 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text22 {
+.enaofficialwebsite-about-text22 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text24 {
+.enaofficialwebsite-about-text24 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text26 {
+.enaofficialwebsite-about-text26 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text28 {
+.enaofficialwebsite-about-text28 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-text30 {
+.enaofficialwebsite-about-text30 {
   font-size: 1.1rem;
 }
-.enaofficialwebsit-about-footer {
+.enaofficialwebsite-about-footer {
   width: 100%;
   height: auto;
   display: flex;
@@ -187,29 +187,29 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.enaofficialwebsit-about-text33 {
+.enaofficialwebsite-about-text33 {
   color: #094bfb;
   font-family: Yuji Syuku;
 }
 @media(max-width: 991px) {
-  .enaofficialwebsit-about-container {
+  .enaofficialwebsite-about-container {
     justify-content: flex-start;
   }
-  .enaofficialwebsit-about-header {
+  .enaofficialwebsite-about-header {
     background-color: var(--dl-color-gray-white);
   }
-  .enaofficialwebsit-about-image2 {
+  .enaofficialwebsite-about-image2 {
     width: 395px;
     height: 451px;
     align-self: center;
     margin-left: 30px;
   }
-  .enaofficialwebsit-about-container4 {
+  .enaofficialwebsite-about-container4 {
     margin-top: 0%;
     align-items: center;
     justify-content: space-between;
   }
-  .enaofficialwebsit-about-text {
+  .enaofficialwebsite-about-text {
     color: rgb(12, 12, 12);
     margin-top: var(--dl-space-space-threeunits);
     font-family: Shippori Antique;
@@ -218,149 +218,149 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  .enaofficialwebsit-about-text01 {
+  .enaofficialwebsite-about-text01 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text02 {
+  .enaofficialwebsite-about-text02 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text03 {
+  .enaofficialwebsite-about-text03 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text04 {
+  .enaofficialwebsite-about-text04 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text05 {
+  .enaofficialwebsite-about-text05 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text06 {
+  .enaofficialwebsite-about-text06 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text07 {
+  .enaofficialwebsite-about-text07 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text08 {
+  .enaofficialwebsite-about-text08 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text09 {
+  .enaofficialwebsite-about-text09 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text10 {
+  .enaofficialwebsite-about-text10 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text11 {
+  .enaofficialwebsite-about-text11 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text12 {
+  .enaofficialwebsite-about-text12 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text13 {
+  .enaofficialwebsite-about-text13 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text14 {
+  .enaofficialwebsite-about-text14 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text15 {
+  .enaofficialwebsite-about-text15 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text16 {
+  .enaofficialwebsite-about-text16 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text17 {
+  .enaofficialwebsite-about-text17 {
     font-size: 13px;
   }
-  .enaofficialwebsit-about-text18 {
+  .enaofficialwebsite-about-text18 {
     font-size: 1.1rem;
   }
-  .enaofficialwebsit-about-text19 {
+  .enaofficialwebsite-about-text19 {
     font-size: 1.1rem;
   }
-  .enaofficialwebsit-about-text20 {
+  .enaofficialwebsite-about-text20 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text21 {
+  .enaofficialwebsite-about-text21 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text22 {
+  .enaofficialwebsite-about-text22 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text23 {
+  .enaofficialwebsite-about-text23 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text24 {
+  .enaofficialwebsite-about-text24 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text25 {
+  .enaofficialwebsite-about-text25 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text26 {
+  .enaofficialwebsite-about-text26 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text27 {
+  .enaofficialwebsite-about-text27 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text28 {
+  .enaofficialwebsite-about-text28 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text29 {
+  .enaofficialwebsite-about-text29 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text30 {
+  .enaofficialwebsite-about-text30 {
     font-size: 10px;
   }
-  .enaofficialwebsit-about-text31 {
+  .enaofficialwebsite-about-text31 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text32 {
+  .enaofficialwebsite-about-text32 {
     font-size: 1.1rem;
   }
-  .enaofficialwebsit-about-footer {
+  .enaofficialwebsite-about-footer {
     background-color: var(--dl-color-gray-white);
   }
 }
 @media(max-width: 767px) {
-  .enaofficialwebsit-about-header {
+  .enaofficialwebsite-about-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .enaofficialwebsit-about-image {
+  .enaofficialwebsite-about-image {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .enaofficialwebsit-about-nav {
+  .enaofficialwebsite-about-nav {
     display: none;
   }
-  .enaofficialwebsit-about-burger-menu {
+  .enaofficialwebsite-about-burger-menu {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .enaofficialwebsit-about-icon {
+  .enaofficialwebsite-about-icon {
     fill: #094bfb;
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
-  .enaofficialwebsit-about-mobile-menu {
+  .enaofficialwebsite-about-mobile-menu {
     height: auto;
     display: none;
   }
-  .enaofficialwebsit-about-nav1 {
+  .enaofficialwebsite-about-nav1 {
     align-items: center;
   }
-  .enaofficialwebsit-about-container3 {
+  .enaofficialwebsite-about-container3 {
     margin-bottom: 20px;
   }
-  .enaofficialwebsit-about-icon2 {
+  .enaofficialwebsite-about-icon2 {
     fill: #094bfb;
     width: 30px;
     height: 30px;
   }
-  .enaofficialwebsit-about-image2 {
+  .enaofficialwebsite-about-image2 {
     width: 330px;
     height: 373px;
     margin-left: 0px;
   }
-  .enaofficialwebsit-about-text {
+  .enaofficialwebsite-about-text {
     color: rgb(12, 12, 12);
     font-family: Shippori Antique;
     line-height: 2;
@@ -369,128 +369,128 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  .enaofficialwebsit-about-text01 {
+  .enaofficialwebsite-about-text01 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text02 {
+  .enaofficialwebsite-about-text02 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text03 {
+  .enaofficialwebsite-about-text03 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text04 {
+  .enaofficialwebsite-about-text04 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text05 {
+  .enaofficialwebsite-about-text05 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text06 {
+  .enaofficialwebsite-about-text06 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text07 {
+  .enaofficialwebsite-about-text07 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text08 {
+  .enaofficialwebsite-about-text08 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text09 {
+  .enaofficialwebsite-about-text09 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text10 {
+  .enaofficialwebsite-about-text10 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text11 {
+  .enaofficialwebsite-about-text11 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text12 {
+  .enaofficialwebsite-about-text12 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text13 {
+  .enaofficialwebsite-about-text13 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text14 {
+  .enaofficialwebsite-about-text14 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text15 {
+  .enaofficialwebsite-about-text15 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text16 {
+  .enaofficialwebsite-about-text16 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text17 {
+  .enaofficialwebsite-about-text17 {
     font-size: 14px;
   }
-  .enaofficialwebsit-about-text18 {
+  .enaofficialwebsite-about-text18 {
     font-size: 14px;
   }
-  .enaofficialwebsit-about-text19 {
+  .enaofficialwebsite-about-text19 {
     font-size: 14px;
   }
-  .enaofficialwebsit-about-text20 {
+  .enaofficialwebsite-about-text20 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text21 {
+  .enaofficialwebsite-about-text21 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text22 {
+  .enaofficialwebsite-about-text22 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text23 {
+  .enaofficialwebsite-about-text23 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text24 {
+  .enaofficialwebsite-about-text24 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text25 {
+  .enaofficialwebsite-about-text25 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text26 {
+  .enaofficialwebsite-about-text26 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text27 {
+  .enaofficialwebsite-about-text27 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text28 {
+  .enaofficialwebsite-about-text28 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text29 {
+  .enaofficialwebsite-about-text29 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text30 {
+  .enaofficialwebsite-about-text30 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text31 {
+  .enaofficialwebsite-about-text31 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-footer {
+  .enaofficialwebsite-about-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .enaofficialwebsit-about-text33 {
+  .enaofficialwebsite-about-text33 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .enaofficialwebsit-about-text34 {
+  .enaofficialwebsite-about-text34 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .enaofficialwebsit-about-header {
+  .enaofficialwebsite-about-header {
     padding: var(--dl-space-space-unit);
     position: relative;
   }
-  .enaofficialwebsit-about-image {
+  .enaofficialwebsite-about-image {
     margin-right: 0px;
   }
-  .enaofficialwebsit-about-icon {
+  .enaofficialwebsite-about-icon {
     fill: #094bfb;
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
-  .enaofficialwebsit-about-mobile-menu {
+  .enaofficialwebsite-about-mobile-menu {
     left: 0px;
     right: 0px;
     width: 100%;
@@ -500,25 +500,25 @@
     padding: 16px;
     align-items: stretch;
   }
-  .enaofficialwebsit-about-nav1 {
+  .enaofficialwebsite-about-nav1 {
     align-items: center;
   }
-  .enaofficialwebsit-about-icon2 {
+  .enaofficialwebsite-about-icon2 {
     fill: #094bfb;
     width: 30px;
     height: 30px;
     border-color: var(--dl-color-gray-black);
     border-width: 0px;
   }
-  .enaofficialwebsit-about-image1 {
+  .enaofficialwebsite-about-image1 {
     width: 130px;
   }
-  .enaofficialwebsit-about-image2 {
+  .enaofficialwebsite-about-image2 {
     width: 255px;
     height: 275px;
     align-self: center;
   }
-  .enaofficialwebsit-about-text {
+  .enaofficialwebsite-about-text {
     color: rgb(12, 12, 12);
     width: auto;
     font-family: Shippori Antique;
@@ -528,114 +528,114 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  .enaofficialwebsit-about-text01 {
+  .enaofficialwebsite-about-text01 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text02 {
+  .enaofficialwebsite-about-text02 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text03 {
+  .enaofficialwebsite-about-text03 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text04 {
+  .enaofficialwebsite-about-text04 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text05 {
+  .enaofficialwebsite-about-text05 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text06 {
+  .enaofficialwebsite-about-text06 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text07 {
+  .enaofficialwebsite-about-text07 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text08 {
+  .enaofficialwebsite-about-text08 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text09 {
+  .enaofficialwebsite-about-text09 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text10 {
+  .enaofficialwebsite-about-text10 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text11 {
+  .enaofficialwebsite-about-text11 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text12 {
+  .enaofficialwebsite-about-text12 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text13 {
+  .enaofficialwebsite-about-text13 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text14 {
+  .enaofficialwebsite-about-text14 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text15 {
+  .enaofficialwebsite-about-text15 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text16 {
+  .enaofficialwebsite-about-text16 {
     font-size: 12.5px;
   }
-  .enaofficialwebsit-about-text17 {
+  .enaofficialwebsite-about-text17 {
     font-size: 13px;
   }
-  .enaofficialwebsit-about-text18 {
+  .enaofficialwebsite-about-text18 {
     font-size: 1.1rem;
   }
-  .enaofficialwebsit-about-text19 {
+  .enaofficialwebsite-about-text19 {
     font-size: 1.1rem;
   }
-  .enaofficialwebsit-about-text20 {
+  .enaofficialwebsite-about-text20 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text21 {
+  .enaofficialwebsite-about-text21 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text22 {
+  .enaofficialwebsite-about-text22 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text23 {
+  .enaofficialwebsite-about-text23 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text24 {
+  .enaofficialwebsite-about-text24 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text25 {
+  .enaofficialwebsite-about-text25 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text26 {
+  .enaofficialwebsite-about-text26 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text27 {
+  .enaofficialwebsite-about-text27 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text28 {
+  .enaofficialwebsite-about-text28 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text29 {
+  .enaofficialwebsite-about-text29 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text30 {
+  .enaofficialwebsite-about-text30 {
     font-size: 11px;
   }
-  .enaofficialwebsit-about-text31 {
+  .enaofficialwebsite-about-text31 {
     font-size: 12px;
   }
-  .enaofficialwebsit-about-text32 {
+  .enaofficialwebsite-about-text32 {
     font-size: 1.1rem;
   }
-  .enaofficialwebsit-about-footer {
+  .enaofficialwebsite-about-footer {
     padding: var(--dl-space-space-unit);
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
-  .enaofficialwebsit-about-text33 {
+  .enaofficialwebsite-about-text33 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .enaofficialwebsit-about-text34 {
+  .enaofficialwebsite-about-text34 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

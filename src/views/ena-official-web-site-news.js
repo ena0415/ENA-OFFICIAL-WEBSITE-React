@@ -10,7 +10,7 @@ import './ena-official-web-site-news.css'
 
 const ENAOFFICIALWEBSITENews = (props) => {
   return (
-    <div className="enaofficialwebsit-news-container">
+    <div className="enaofficialwebsite-news-container">
       <Helmet>
         <title>ENA-OFFICIAL-WEB-SITE-news - ENA OFFICIAL WEBSITE</title>
         <meta
@@ -30,42 +30,42 @@ const ENAOFFICIALWEBSITENews = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5b42fbbc-0488-4237-b648-f63f8835f207/94c58585-6fa6-44b7-913a-47252dc461ca?org_if_sml=1"
         />
       </Helmet>
-      <header data-role="Header" className="enaofficialwebsit-news-header">
-        <Link to="/" className="enaofficialwebsit-news-navlink">
+      <header data-role="Header" className="enaofficialwebsite-news-header">
+        <Link to="/" className="enaofficialwebsite-news-navlink">
           <img
             alt="logo"
             src="/white%20pink%20minimalist%20podcast%20logo-2-200h.png"
-            className="enaofficialwebsit-news-image"
+            className="enaofficialwebsite-news-image"
           />
         </Link>
-        <div className="enaofficialwebsit-news-container1">
-          <div className="enaofficialwebsit-news-container2">
-            <div className="enaofficialwebsit-news-nav">
+        <div className="enaofficialwebsite-news-container1">
+          <div className="enaofficialwebsite-news-container2">
+            <div className="enaofficialwebsite-news-nav">
               <NavigationLinks rootClassName="rootClassName19"></NavigationLinks>
             </div>
           </div>
         </div>
         <div
           data-role="BurgerMenu"
-          className="enaofficialwebsit-news-burger-menu"
+          className="enaofficialwebsite-news-burger-menu"
         >
-          <svg viewBox="0 0 1024 1024" className="enaofficialwebsit-news-icon">
+          <svg viewBox="0 0 1024 1024" className="enaofficialwebsite-news-icon">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
           </svg>
         </div>
         <div
           data-role="MobileMenu"
-          className="enaofficialwebsit-news-mobile-menu"
+          className="enaofficialwebsite-news-mobile-menu"
         >
-          <div className="enaofficialwebsit-news-nav1">
-            <div className="enaofficialwebsit-news-container3">
+          <div className="enaofficialwebsite-news-nav1">
+            <div className="enaofficialwebsite-news-container3">
               <div
                 data-role="CloseMobileMenu"
-                className="enaofficialwebsit-news-close-mobile-menu"
+                className="enaofficialwebsite-news-close-mobile-menu"
               >
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="enaofficialwebsit-news-icon2"
+                  className="enaofficialwebsite-news-icon2"
                 >
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
@@ -78,16 +78,25 @@ const ENAOFFICIALWEBSITENews = (props) => {
       <img
         alt="image"
         src="/news-200h.png"
-        className="enaofficialwebsit-news-image1"
+        className="enaofficialwebsite-news-image1"
       />
+      <FeatureCard3
+        text="Listen"
+        title=" TBS系 金曜ドラマ「トリリオンゲーム」オリジナル・サウンドトラック"
+        image_src="/71hbnbsrctl._ac_sl1076_-200h.jpg"
+        link_text="https://www.amazon.co.jp/TBS系-金曜ドラマ「トリリオンゲーム」オリジナル・サウンドトラック-オリジナル・サウンドトラック/dp/B0CCRWMRNF"
+        description="2023.9.6"
+        description1="Main Theme含む数曲コーラス参加／音楽:木村秀彬"
+        rootClassName="rootClassName8"
+      ></FeatureCard3>
       <FeatureCard3
         text="Listen"
         title="はちみつBLACK　2ndアルバム『INFINITYMARCH』"
         image_src="/%C3%A3%C2%83%C2%95%C3%A3%C2%82%C2%A1%C3%A3%C2%82%C2%A4%C3%A3%C2%83%C2%AB-2023-05-23-15-47-01_2-200h.jpg"
         link_text="https://tower.jp/item/5721424/INFINITYMARCH%EF%BC%9CType-A%EF%BC%9E"
         description="2023.8.15"
-        rootClassName="rootClassName8"
         description1=" M2ワッショイ賛歌　作詞担当／作曲:山田高弘"
+        rootClassName="rootClassName14"
       ></FeatureCard3>
       <FeatureCard3
         text="Listen"
@@ -142,18 +151,9 @@ const ENAOFFICIALWEBSITENews = (props) => {
         description1="KAT-TUN　アルバム「HONEY」　M12亀梨和也ソロ曲　コーラス参加"
         rootClassName="rootClassName10"
       ></FeatureCard3>
-      <FeatureCard3
-        text="Listen"
-        title="真昼、空にオリオン"
-        image_src="/%E3%82%8A%E3%81%B5%E3%82%99%E3%82%89-200h.png"
-        link_text="https://www.youtube.com/watch?v=K72uPVLDxcI"
-        description="2021.11.11"
-        description1="スマホ向けRPGゲーム　メメントモリ　リブラ　キャラクターソング歌唱"
-        rootClassName="rootClassName11"
-      ></FeatureCard3>
-      <footer className="enaofficialwebsit-news-footer">
-        <span className="enaofficialwebsit-news-text">
-          <span className="enaofficialwebsit-news-text1">2023　©　ENA</span>
+      <footer className="enaofficialwebsite-news-footer">
+        <span className="enaofficialwebsite-news-text">
+          <span className="enaofficialwebsite-news-text1">2023　©　ENA</span>
           <br></br>
         </span>
       </footer>
