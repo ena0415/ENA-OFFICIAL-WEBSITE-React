@@ -92,7 +92,7 @@ const ENAOFFICIALWEBSITENews = (props) => {
       <FeatureCard3
         text="Listen"
         title="はちみつBLACK　2ndアルバム『INFINITYMARCH』"
-        image_src="/%C3%A3%C2%83%C2%95%C3%A3%C2%82%C2%A1%C3%A3%C2%82%C2%A4%C3%A3%C2%83%C2%AB-2023-05-23-15-47-01_2-200h.jpg"
+        image_src="/hachimi-200h.jpg"
         link_text="https://tower.jp/item/5721424/INFINITYMARCH%EF%BC%9CType-A%EF%BC%9E"
         description="2023.8.15"
         description1=" M2ワッショイ賛歌　作詞担当／作曲:山田高弘"
