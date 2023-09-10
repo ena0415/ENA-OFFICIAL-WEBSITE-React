@@ -83,7 +83,7 @@ const ENAOFFICIALWEBSITENews = (props) => {
       <FeatureCard3
         text="Listen"
         title=" TBS系 金曜ドラマ「トリリオンゲーム」オリジナル・サウンドトラック"
-        image_src="/71hbnbsrctl._ac_sl1076_-200h.jpg"
+        image_src="/toririonn-200h.jpg"
         link_text="https://www.amazon.co.jp/TBS系-金曜ドラマ「トリリオンゲーム」オリジナル・サウンドトラック-オリジナル・サウンドトラック/dp/B0CCRWMRNF"
         description="2023.9.6"
         description1="Main Theme含む数曲コーラス参加／音楽:木村秀彬"
